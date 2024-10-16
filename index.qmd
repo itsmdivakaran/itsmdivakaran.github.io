@@ -1,21 +1,18 @@
 ---
-title: "Mahesh Divakaran"
 about: 
   template: jolla 
   image-shape: round
   image-width: 17em
-  links: # create buttons
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/imaheshdivakaran/
-      target: _blank # opens link in a new browser tab
-    - icon: github
-      text: GitHub
-      href: https://github.com/itsmdivakaran
-      target: _blank 
-    - icon: envelope
-      text: Email
-      href: mailto:imaheshdivakaran@gmail.com
+toc: false  # This disables the side navigation
 ---
 
-## HI
+## Welcome to My Page
+
+Hi, this is my index page. Here you will find information about my projects, interests, and ways to contact me.
+
+### Connect with Me
+
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imaheshdivakaran/)
+[![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itsmdivakaran)
+[![](https://img.shields.io/badge/Email-D13832?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imaheshdivakaran@gmail.com)
+---
