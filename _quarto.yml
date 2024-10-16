@@ -1,19 +1,39 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "Mahi"
+  title: "Mahesh Divakaran"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      right: # accepts right/left/center; you can also place items individually on the left, right, and center
+        - href: index.qmd
+          text: Home
+        - about.qmd
+        - href: resources.qmd
+          text: Resources
+        - href: docs/myCV.pdf # providing a relative file path to a pdf will open up a browser-based pdf viewer when clicked
+          text: CV
+          target: _blank # opens link (or page) in a new browser tab
+        - icon: github # add icons as navbar buttons
+          href: https://github.com/itsmdivakaran
+          target: _blank
+  page-footer:
+          background: light
+          left: Copyright 2024, Mahesh Divakaran
+          right: This website is built with <i class="fas fa-heart" title="a heart"></i>, 
+                 <a href="https://github.com/itsmdivakaran/itsmdivakaran.github.io" target="_blank"><i class="fab fa-github" title="GitHub octocat logo"></i></a>, 
+                 <a href="https://www.r-project.org/about.html" target="_blank"><i class="fab fa-r-project" title="R Project"></i></a> and 
+                 <a href="https://quarto.org/" target="_blank">Quarto</a>
+      
+publish:
+  gh-pages:
+    branch: main   # In this case, you will publish directly to the main branch
+    repo: itsmdivakaran/itsmdivakaran.github.io   # Special GitHub Pages repository
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    css: style.scss
+    font: 
+      - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     toc: true
-
-editor: visual
-
+    
+      

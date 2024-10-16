@@ -1,11 +1,21 @@
 ---
-title: "Mahi"
+title: "Mahesh Divakaran"
+about: 
+  template: jolla 
+  image-shape: round
+  image-width: 17em
+  links: # create buttons
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/imaheshdivakaran/
+      target: _blank # opens link in a new browser tab
+    - icon: github
+      text: GitHub
+      href: https://github.com/itsmdivakaran
+      target: _blank 
+    - icon: envelope
+      text: Email
+      href: mailto:imaheshdivakaran@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+## HI
