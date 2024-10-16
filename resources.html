@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>resources – Mahesh Divakaran</title>
+<title>Resources – Mahesh Divakaran</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -51,7 +53,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -66,12 +67,73 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.scss">
+<link rel="alternate" type="application/rss+xml" title="Mahesh Divakaran" href="resources.xml" data-external="1"><meta property="og:title" content="Resources – Mahesh Divakaran">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Mahesh Divakaran">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,36 +181,53 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Mahesh Divakaran</h2>
    
   <ul>
-  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">Resources</a>
-  <ul class="collapse">
-  <li><a href="#my-blogs" id="toc-my-blogs" class="nav-link" data-scroll-target="#my-blogs">My Blogs</a>
+  <li><a href="#my-blogs" id="toc-my-blogs" class="nav-link active" data-scroll-target="#my-blogs"><span class="header-section-number">1</span> My Blogs</a>
   <ul class="collapse">
   <li><a href="#data-digest-clinical-analysis-newsletter" id="toc-data-digest-clinical-analysis-newsletter" class="nav-link" data-scroll-target="#data-digest-clinical-analysis-newsletter">Data Digest: Clinical Analysis Newsletter</a></li>
   <li><a href="#blog-posts" id="toc-blog-posts" class="nav-link" data-scroll-target="#blog-posts">Blog Posts</a></li>
   </ul></li>
-  <li><a href="#connect-with-me" id="toc-connect-with-me" class="nav-link" data-scroll-target="#connect-with-me">Connect with Me</a></li>
-  </ul></li>
+  <li><a href="#connect-with-me" id="toc-connect-with-me" class="nav-link" data-scroll-target="#connect-with-me"><span class="header-section-number">2</span> Connect with Me</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Resources</h1>
+</div>
 
 
 
-<section id="resources" class="level1">
-<h1>Resources</h1>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>Welcome to the Resources page! Here you can find a collection of my blogs and articles focused on <strong>data science</strong>, <strong>clinical data analysis</strong>, and <strong>statistics</strong>.</p>
 <hr>
-<section id="my-blogs" class="level2">
-<h2 class="anchored" data-anchor-id="my-blogs">My Blogs</h2>
+<ul>
+<li>title: “Archived Item 1” author: Norah Jones date: 2020-01-01 path: “archived/archived-item-.html” categories: [archived, technology]</li>
+</ul>
+<section id="my-blogs" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="my-blogs"><span class="header-section-number">1</span> My Blogs</h2>
 <section id="data-digest-clinical-analysis-newsletter" class="level3">
 <h3 class="anchored" data-anchor-id="data-digest-clinical-analysis-newsletter"><a href="https://www.linkedin.com/newsletters/data-digest-clinical-analysis-7021396807893094400/">Data Digest: Clinical Analysis Newsletter</a></h3>
 <p>A LinkedIn newsletter where I cover various topics related to clinical data analysis, statistical methodologies, and best practices in data science. Below are some of the blog posts published so far:</p>
@@ -173,15 +252,22 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="connect-with-me" class="level2">
-<h2 class="anchored" data-anchor-id="connect-with-me">Connect with Me</h2>
+<section id="connect-with-me" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="connect-with-me"><span class="header-section-number">2</span> Connect with Me</h2>
 <p><a href="https://www.linkedin.com/in/imaheshdivakaran/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white.png" class="img-fluid"></a> <a href="https://github.com/itsmdivakaran"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white.png" class="img-fluid"></a> <a href="mailto:imaheshdivakaran@gmail.com"><img src="https://img.shields.io/badge/Email-D13832?style=for-the-badge&amp;logo=gmail&amp;logoColor=white.png" class="img-fluid"></a></p>
 
 
-</section>
+
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -274,7 +360,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/itsmdivakaran\.github\.io\/mdivakaran\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/itsmdivakaran\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
