@@ -27,7 +27,7 @@ website:
       
 publish:
   gh-pages:
-    branch: main   # In this case, you will publish directly to the main branch
+    branch: gh-pages   # In this case, you will publish directly to the main branch
     repo: itsmdivakaran/itsmdivakaran.github.io   # Special GitHub Pages repository
 format:
   html:
