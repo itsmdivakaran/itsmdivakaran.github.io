@@ -1,4 +1,5 @@
 project:
+  title: "Mahesh Divakaran"
   type: website
   output-dir: _site
 

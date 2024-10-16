@@ -22,7 +22,7 @@ number-sections: false
 
 **Welcome to my professional page! Here you'll find information about my work, expertise, and blog posts.** Navigate using the sidebar or the top menu.
 
-### Bio
+###  Bio
 I am a seasoned data scientist specializing in clinical data analysis. With over eight years of experience, I am currently pursuing my PhD in Statistics and work as a Senior Statistical Programmer at IQVIA.
 
 ### Education
