@@ -1,14 +1,48 @@
 ---
+title: "Mahesh Divakaran"
+image: md.jpeg  # Make sure you upload your image to the repository
+image-shape: round
+image-width: 200px
 about: 
-  template: jolla 
+  id: hero-heading
+  template: trestles 
   image-shape: round
   image-width: 17em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/imaheshdivakaran/
+    - icon: github
+      text: Github
+      href: https://github.com/itsmdivakaran
 toc: false  # This disables the side navigation
+number-sections: false
 ---
+:::{#hero-heading}
 
-## Welcome to My Page
+**Welcome to my professional page! Here you'll find information about my work, expertise, and blog posts.** Navigate using the sidebar or the top menu.
 
-Hi, this is my index page. Here you will find information about my projects, interests, and ways to contact me.
+#### Bio
+I am a seasoned data scientist specializing in clinical data analysis. With over eight years of experience, I am currently pursuing my PhD in Statistics and work as a Senior Statistical Programmer at IQVIA.
+
+### Education
+
+**Amity University** | Lucknow, Uttar Pradesh  
+PhD in Statistics (Ongoing) | 2024 - Present
+
+**Diploma in Project Management** 
+Oxford Home Study Center | 2023
+
+**Cochin University of Science and Technology** | Cochin, Kerala  
+M.Sc in Statistics | 2015 - 2017
+
+
+### Experience
+
+- **IQVIA** | Senior Statistical Programmer | July 2024 - Present  
+- **Genpro Research** | Associate Lead, Clinical Data Analytics | April 2023 - July 2024  
+
+---
 
 ### Connect with Me
 
@@ -16,3 +50,4 @@ Hi, this is my index page. Here you will find information about my projects, int
 [![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itsmdivakaran)
 [![](https://img.shields.io/badge/Email-D13832?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imaheshdivakaran@gmail.com)
 ---
+:::

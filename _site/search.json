@@ -4,14 +4,21 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Welcome to the Resources page! Here you can find a collection of my blogs and articles focused on data science, clinical data analysis, and statistics.\n\n\n\n\n\nA LinkedIn newsletter where I cover various topics related to clinical data analysis, statistical methodologies, and best practices in data science. Below are some of the blog posts published so far:\n\n\n\n\nApple Watch’s New Features: Revolutionizing Clinical Saving\nDrowning in Data: Mastering the Art of Clear & Concise Insights\nAI Revolutionizing Healthcare: Rapid Changes Over the Last Decade\nPatient-Centric Approaches in Clinical Data Collection\nUnlocking Insights: The Importance of ANOVA in Clinical Trials\nEnsuring Integrity in Regression Analysis: The Vital Role in Data\nPioneering Clinical Research: A Deep Dive into Sequential Models\nElevating Web Development with R Shiny and Beyond\nAI Revolution: Transforming the Landscape of Clinical Data\nNavigating the Future: A 2024 Forecast of AI and Open-Source Data\n\n… and many more insightful articles on LinkedIn.\n\nStay tuned for more blog posts and updates! Be sure to follow my LinkedIn newsletter to receive the latest articles on clinical data analysis and data science."
+    "text": "Welcome to the Resources page! Here you can find a collection of my blogs and articles focused on data science, clinical data analysis, and statistics."
   },
   {
     "objectID": "resources.html#my-blogs",
     "href": "resources.html#my-blogs",
     "title": "Resources",
-    "section": "",
-    "text": "A LinkedIn newsletter where I cover various topics related to clinical data analysis, statistical methodologies, and best practices in data science. Below are some of the blog posts published so far:\n\n\n\n\nApple Watch’s New Features: Revolutionizing Clinical Saving\nDrowning in Data: Mastering the Art of Clear & Concise Insights\nAI Revolutionizing Healthcare: Rapid Changes Over the Last Decade\nPatient-Centric Approaches in Clinical Data Collection\nUnlocking Insights: The Importance of ANOVA in Clinical Trials\nEnsuring Integrity in Regression Analysis: The Vital Role in Data\nPioneering Clinical Research: A Deep Dive into Sequential Models\nElevating Web Development with R Shiny and Beyond\nAI Revolution: Transforming the Landscape of Clinical Data\nNavigating the Future: A 2024 Forecast of AI and Open-Source Data\n\n… and many more insightful articles on LinkedIn.\n\nStay tuned for more blog posts and updates! Be sure to follow my LinkedIn newsletter to receive the latest articles on clinical data analysis and data science."
+    "section": "1 My Blogs",
+    "text": "1 My Blogs\n\nData Digest: Clinical Analysis Newsletter\nA LinkedIn newsletter where I cover various topics related to clinical data analysis, statistical methodologies, and best practices in data science. Below are some of the blog posts published so far:\n\n\nBlog Posts\n\nApple Watch’s New Features: Revolutionizing Clinical Saving\nDrowning in Data: Mastering the Art of Clear & Concise Insights\nAI Revolutionizing Healthcare: Rapid Changes Over the Last Decade\nPatient-Centric Approaches in Clinical Data Collection\nUnlocking Insights: The Importance of ANOVA in Clinical Trials\nEnsuring Integrity in Regression Analysis: The Vital Role in Data\nPioneering Clinical Research: A Deep Dive into Sequential Models\nElevating Web Development with R Shiny and Beyond\nAI Revolution: Transforming the Landscape of Clinical Data\nNavigating the Future: A 2024 Forecast of AI and Open-Source Data\n\n… and many more insightful articles on LinkedIn.\n\nStay tuned for more blog posts and updates! Be sure to follow my LinkedIn newsletter to receive the latest articles on clinical data analysis and data science."
+  },
+  {
+    "objectID": "resources.html#connect-with-me",
+    "href": "resources.html#connect-with-me",
+    "title": "Resources",
+    "section": "2 Connect with Me",
+    "text": "2 Connect with Me"
   },
   {
     "objectID": "about.html",
@@ -24,139 +31,132 @@
     "objectID": "about.html#professional-experience",
     "href": "about.html#professional-experience",
     "title": "About",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nSenior Statistical Programmer at IQVIA, leading the development and validation of R packages for clinical studies.\nFormer Associate Lead - Clinical Data Analytics at Genpro Research, where I led the development of R Shiny dashboards and automated reporting processes for clinical trials.\nExperience in statistical programming, data visualization, and healthcare analytics across multiple companies and industries."
+    "section": "1 Professional Experience",
+    "text": "1 Professional Experience\n\nSenior Statistical Programmer at IQVIA, leading the development and validation of R packages for clinical studies.\nFormer Associate Lead - Clinical Data Analytics at Genpro Research, where I led the development of R Shiny dashboards and automated reporting processes for clinical trials.\nExperience in statistical programming, data visualization, and healthcare analytics across multiple companies and industries."
   },
   {
     "objectID": "about.html#key-skills",
     "href": "about.html#key-skills",
     "title": "About",
-    "section": "Key Skills",
-    "text": "Key Skills\n\nData Science: Proficient in R, Python, and SAS for advanced analytics.\nClinical Data Analysis: Expertise in creating ADaM datasets and generating clinical study reports.\nData Visualization: Skilled in creating interactive dashboards using R Shiny, Tableau, and Power BI.\nPublic Speaking: Presented at national and international conferences on machine learning, data visualization, and healthcare analytics."
+    "section": "2 Key Skills",
+    "text": "2 Key Skills\n\nData Science: Proficient in R, Python, and SAS for advanced analytics.\nClinical Data Analysis: Expertise in creating ADaM datasets and generating clinical study reports.\nData Visualization: Skilled in creating interactive dashboards using R Shiny, Tableau, and Power BI.\nPublic Speaking: Presented at national and international conferences on machine learning, data visualization, and healthcare analytics."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
-    "section": "Education",
-    "text": "Education\n\nPhD in Statistics, Amity University (Ongoing)\nMaster’s in Statistics, Cochin University of Science and Technology\nBachelor’s in Statistics, University of Kerala"
+    "section": "3 Education",
+    "text": "3 Education\n\nPhD in Statistics, Amity University (Ongoing)\nMaster’s in Statistics, Cochin University of Science and Technology\nBachelor’s in Statistics, University of Kerala"
   },
   {
     "objectID": "about.html#certifications",
     "href": "about.html#certifications",
     "title": "About",
-    "section": "Certifications",
-    "text": "Certifications\n\nIBM Data Science Professional Certification\nGoogle Data Analytics Professional Certification\nSAS Certified Base Programmer\nData Science Specialization (R) from Johns Hopkins University"
+    "section": "4 Certifications",
+    "text": "4 Certifications\n\nIBM Data Science Professional Certification\nGoogle Data Analytics Professional Certification\nSAS Certified Base Programmer\nData Science Specialization (R) from Johns Hopkins University"
   },
   {
     "objectID": "about.html#interests",
     "href": "about.html#interests",
     "title": "About",
-    "section": "Interests",
-    "text": "Interests\nWhen I’m not working, I enjoy solving challenging problems, exploring the latest trends in Data Science, and engaging in community service. I’m also an avid traveler and photographer, finding inspiration from different cultures and experiences."
+    "section": "5 Interests",
+    "text": "5 Interests\nWhen I’m not working, I enjoy solving challenging problems, exploring the latest trends in Data Science, and engaging in community service. I’m also an avid traveler and photographer, finding inspiration from different cultures and experiences."
   },
   {
     "objectID": "about.html#connect-with-me",
     "href": "about.html#connect-with-me",
     "title": "About",
-    "section": "Connect with Me",
-    "text": "Connect with Me"
+    "section": "6 Connect with Me",
+    "text": "6 Connect with Me"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mahesh Divakaran",
     "section": "",
-    "text": "Hi, this is my index page. Here you will find information about my projects, interests, and ways to contact me."
-  },
-  {
-    "objectID": "index.html#welcome-to-my-page",
-    "href": "index.html#welcome-to-my-page",
-    "title": "Mahesh Divakaran",
-    "section": "",
-    "text": "Hi, this is my index page. Here you will find information about my projects, interests, and ways to contact me."
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nWelcome to my professional page! Here you’ll find information about my work, expertise, and blog posts. Navigate using the sidebar or the top menu.\n\nBio\nI am a seasoned data scientist specializing in clinical data analysis. With over eight years of experience, I am currently pursuing my PhD in Statistics and work as a Senior Statistical Programmer at IQVIA.\n\n\nEducation\nAmity University | Lucknow, Uttar Pradesh\nPhD in Statistics (Ongoing) | 2024 - Present\nDiploma in Project Management Oxford Home Study Center | 2023\nCochin University of Science and Technology | Cochin, Kerala\nM.Sc in Statistics | 2015 - 2017\n\n\nExperience\n\nIQVIA | Senior Statistical Programmer | July 2024 - Present\n\nGenpro Research | Associate Lead, Clinical Data Analytics | April 2023 - July 2024\n\n\n\n\nConnect with Me"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "Location: Kerala, India\nEmail: imaheshdivakaran@gmail.com\nLinkedIn: linkedin.com/in/imaheshdivakaran\nGitHub: github.com/imaheshdivakaran\n\n\n\n\n\nI am a Senior Statistical Programmer with over eight years of experience in data science and clinical data analysis. I am currently pursuing a PhD in Statistics at Amity University. My skills include R, Python, SAS, R Shiny, Tableau, and Power BI. I am passionate about training and public speaking, frequently presenting at national and international conferences on machine learning, data visualization, and healthcare analytics. I also have several certifications in data science and statistical programming.\n\n\n\n\n\n\n07/2024 - Present\n\n\n\n04/2023 – 07/2024\n\n\n\n04/2022 – 03/2023\n\n\n\n09/2019 – 03/2022\n\n\n\n02/2019 – 11/2019\n\n\n\n06/2018 – 01/2019\n\n\n\n05/2017 – 05/2018\n\n\n\n\n\n\nPhD in Statistics | Amity University, Uttar Pradesh, India | 2024 - Present\nDiploma in Project Management | Oxford Home Study Center | 2023\nMaster’s in Statistics | Cochin University of Science and Technology, Kerala, India | 2017\nBachelor’s in Statistics | University of Kerala | 2015\n\n\n\n\n\n\nIBM Data Science Professional Certification | 2020\nGoogle Data Analytics Professional Certification | 2023\nSAS Certified Base Programmer | 2021\nData Science Specialization (R) | Johns Hopkins University | 2022\nGoogle Project Management Professional Certification | 2024\nCareer Essentials in Data Analysis | Microsoft and LinkedIn | 2023\n\n\n\n\n\n\nClinical Data Analysis: Proficient in R, Python, and SAS for comprehensive clinical data analysis.\nData Visualization: Expertise in R Shiny, Tableau, and Power BI for interactive data visualizations.\nStatistical Expertise: Advanced statistical analysis using R and Python to interpret complex datasets.\nProgramming: Strong skills in R, Python, and SAS for data processing and analysis automation.\nPublic Speaking: Presented at national and international conferences on machine learning, healthcare analytics, and data visualization.\nLeadership: Managed teams and led projects in clinical data analytics and open-source statistical reporting.\n\n\n\n\n\n\nAutomation of ADaM Dataset & TFL Visualization through an R Package - GenAdam2 | PhUSE US Connect 2023\nAutomation of Standard ADaM Variables through an R Package - GenAdam | PHUSE EU Connect 2022\nClinical Design - Visualization and Analysis using the Interactive Application by R Shiny | PHUSE EU Connect 2021\nComparison of Epidemiological Models on Covid-19 Spread in Kerala | DOI: 10.13140/RG.2.2.26715.39201\n\n\n\n\n\n\nPhUSE US Connect 2023 | Orlando, USA\nPHUSE EU Connect 2022 | Belfast, United Kingdom\nPHUSE EU Connect 2021 | London, United Kingdom\nPSI Conference 2021 | Virtual\nISPS Conference 2016 | Aligarh, Uttar Pradesh\n\n\n\n\n\n\nNCC B Certificate | Issued by NCC India\nQuarterly Employee Award | Genpro Research\n\n\n\n\n\n\nVolunteer | The CDISC Open-Source Alliance (COSA)\nVolunteer | Kerala Police Cyberdome\nLife Member | Indian Society for Probability and Statistics\n\n\n\n\n\n\nData Science Enthusiast: Passionate about exploring new trends and technologies in data science.\nProblem-Solving: Enjoy solving puzzles, brain teasers, and strategy games.\nContinuous Learning: Always taking online courses, attending webinars, and reading about data analytics and technology.\nCommunity Involvement: Actively engaged in community service and volunteer work.\nTravel and Photography: Love to travel and capture moments through photography."
   },
   {
     "objectID": "cv.html#contact-information",
     "href": "cv.html#contact-information",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "Location: Kerala, India\nEmail: imaheshdivakaran@gmail.com\nLinkedIn: linkedin.com/in/imaheshdivakaran\nGitHub: github.com/imaheshdivakaran"
   },
   {
     "objectID": "cv.html#professional-summary",
     "href": "cv.html#professional-summary",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "I am a Senior Statistical Programmer with over eight years of experience in data science and clinical data analysis. I am currently pursuing a PhD in Statistics at Amity University. My skills include R, Python, SAS, R Shiny, Tableau, and Power BI. I am passionate about training and public speaking, frequently presenting at national and international conferences on machine learning, data visualization, and healthcare analytics. I also have several certifications in data science and statistical programming."
   },
   {
     "objectID": "cv.html#work-experience",
     "href": "cv.html#work-experience",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "07/2024 - Present\n\n\n\n04/2023 – 07/2024\n\n\n\n04/2022 – 03/2023\n\n\n\n09/2019 – 03/2022\n\n\n\n02/2019 – 11/2019\n\n\n\n06/2018 – 01/2019\n\n\n\n05/2017 – 05/2018"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "PhD in Statistics | Amity University, Uttar Pradesh, India | 2024 - Present\nDiploma in Project Management | Oxford Home Study Center | 2023\nMaster’s in Statistics | Cochin University of Science and Technology, Kerala, India | 2017\nBachelor’s in Statistics | University of Kerala | 2015"
   },
   {
     "objectID": "cv.html#certifications",
     "href": "cv.html#certifications",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "IBM Data Science Professional Certification | 2020\nGoogle Data Analytics Professional Certification | 2023\nSAS Certified Base Programmer | 2021\nData Science Specialization (R) | Johns Hopkins University | 2022\nGoogle Project Management Professional Certification | 2024\nCareer Essentials in Data Analysis | Microsoft and LinkedIn | 2023"
   },
   {
     "objectID": "cv.html#skills",
     "href": "cv.html#skills",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "Clinical Data Analysis: Proficient in R, Python, and SAS for comprehensive clinical data analysis.\nData Visualization: Expertise in R Shiny, Tableau, and Power BI for interactive data visualizations.\nStatistical Expertise: Advanced statistical analysis using R and Python to interpret complex datasets.\nProgramming: Strong skills in R, Python, and SAS for data processing and analysis automation.\nPublic Speaking: Presented at national and international conferences on machine learning, healthcare analytics, and data visualization.\nLeadership: Managed teams and led projects in clinical data analytics and open-source statistical reporting."
   },
   {
     "objectID": "cv.html#publications",
     "href": "cv.html#publications",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "Automation of ADaM Dataset & TFL Visualization through an R Package - GenAdam2 | PhUSE US Connect 2023\nAutomation of Standard ADaM Variables through an R Package - GenAdam | PHUSE EU Connect 2022\nClinical Design - Visualization and Analysis using the Interactive Application by R Shiny | PHUSE EU Connect 2021\nComparison of Epidemiological Models on Covid-19 Spread in Kerala | DOI: 10.13140/RG.2.2.26715.39201"
   },
   {
     "objectID": "cv.html#conference-presentations",
     "href": "cv.html#conference-presentations",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "PhUSE US Connect 2023 | Orlando, USA\nPHUSE EU Connect 2022 | Belfast, United Kingdom\nPHUSE EU Connect 2021 | London, United Kingdom\nPSI Conference 2021 | Virtual\nISPS Conference 2016 | Aligarh, Uttar Pradesh"
   },
   {
     "objectID": "cv.html#awards-and-honors",
     "href": "cv.html#awards-and-honors",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "NCC B Certificate | Issued by NCC India\nQuarterly Employee Award | Genpro Research"
   },
   {
     "objectID": "cv.html#professional-affiliations",
     "href": "cv.html#professional-affiliations",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "Volunteer | The CDISC Open-Source Alliance (COSA)\nVolunteer | Kerala Police Cyberdome\nLife Member | Indian Society for Probability and Statistics"
   },
   {
     "objectID": "cv.html#hobbies-and-interests",
     "href": "cv.html#hobbies-and-interests",
-    "title": "CV - Mahesh Divakaran",
+    "title": "1 CV - Mahesh Divakaran",
     "section": "",
     "text": "Data Science Enthusiast: Passionate about exploring new trends and technologies in data science.\nProblem-Solving: Enjoy solving puzzles, brain teasers, and strategy games.\nContinuous Learning: Always taking online courses, attending webinars, and reading about data analytics and technology.\nCommunity Involvement: Actively engaged in community service and volunteer work.\nTravel and Photography: Love to travel and capture moments through photography."
   }
