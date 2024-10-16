@@ -1,1 +1,0 @@
-# mdivakaran.github.io
