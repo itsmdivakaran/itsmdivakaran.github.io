@@ -1,190 +1,1007 @@
 /*-- scss:defaults --*/
 
+/* ── Color Palette (SCSS compile-time vars) ── */
+$bg-primary:    #0d1117;
+$bg-secondary:  #161b22;
+$bg-card:       #1c2128;
+$bg-elevated:   #21262d;
 
+$text-primary:  #e6edf3;
+$text-secondary:#8b949e;
+$text-muted:    #6e7681;
 
-/* Variables for colors, fonts, and spacing */
-$primary-color: #20c997;
-$secondary-color: #1e30f3;
-$font-family: 'Arial', sans-serif;
-$font-size-base: 16px;
-$heading-font-size: 2rem;
-$footer-bg-color: #f8f9fa;
+$accent-cyan:   #58a6ff;
+$accent-green:  #3fb950;
+$accent-orange: #f0883e;
+$accent-purple: #bc8cff;
+$accent-red:    #ff7b72;
+
+$border-color:  #30363d;
+$border-subtle: #21262d;
+
+$font-body:     'Inter', 'Space Grotesk', -apple-system, sans-serif;
+$font-mono:     'JetBrains Mono', 'Fira Code', monospace;
+$font-heading:  'Space Grotesk', 'Inter', sans-serif;
 
 /*-- scss:rules --*/
-/* Base styles for body and typography */
+
+/* ────────────────────────────────────────
+   BASE + DOT-GRID BACKGROUND
+──────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: $font-family;
-  font-size: $font-size-base;
-  color: #1e30f3;
-  line-height: 1.6;
-  background-color: $secondary-color;
+  font-family: $font-body;
+  font-size: 16px;
+  color: $text-primary;
+  background-color: $bg-primary;
+  /* subtle dot grid */
+  background-image: radial-gradient(circle, rgba(88, 166, 255, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+  line-height: 1.7;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-
-.navbar {
-    background-color: #089b74;
-    color: #fdfefe;
+/* darken the dot grid on secondary panels */
+#quarto-content, main {
+  background-color: transparent;
 }
 
-.navbar-dark, .navbar[data-bs-theme=dark] {
-    --bs-navbar-color: #ffffff;
-    --bs-navbar-hover-color: #f1f1f1;
-    --bs-navbar-disabled-color: rgba(253, 254, 254, 0.75);
-    --bs-navbar-active-color: #fdfeff;
-    --bs-navbar-brand-color: #fdfefe;
-    --bs-navbar-brand-hover-color: #fdfeff;
-    --bs-navbar-toggler-border-color: rgba(253, 254, 254, 0);
-    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fdfefe' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+::selection {
+  background: rgba(88, 166, 255, 0.25);
+  color: $text-primary;
 }
 
+/* ────────────────────────────────────────
+   TYPOGRAPHY
+──────────────────────────────────────── */
 h1 {
-  color: #003366;
-  font-size: 2.5rem;  /* You can adjust the size if needed */
-  font-weight: bold;
+  font-family: $font-heading;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: $text-primary;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-h2, h3, h4, h5, h6 {
-  font-family: $font-family;
-  font-weight: bold;
+h2 {
+  font-family: $font-heading;
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: $text-primary;
+  letter-spacing: -0.01em;
+  margin-top: 2.8rem;
+  margin-bottom: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  /* horizontal rule replaced by a gradient line */
+  &::after {
+    content: '';
+    display: block;
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, rgba(88, 166, 255, 0.5), transparent);
+    margin-left: 0.5rem;
+  }
+}
+
+h3 {
+  font-family: $font-heading;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: $text-primary;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+h4, h5, h6 {
+  font-family: $font-heading;
+  font-weight: 600;
+  color: $text-secondary;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: $text-secondary;
   margin-bottom: 1rem;
-  color: $primary-color;
+}
+
+strong {
+  color: $text-primary;
+  font-weight: 600;
 }
 
 a {
-  color: $primary-color;
+  color: $accent-cyan;
   text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+
   &:hover {
-    text-decoration: underline;
+    color: lighten($accent-cyan, 12%);
+    text-decoration: none;
   }
 }
 
-/* Header Styles */
-#quarto-header {
-  padding: 0;                  /* Remove any extra padding */
-  margin: 0.001;                   /* Remove any extra margin */
-  height: auto;                /* Let the header height adjust to content */
-  
-  .navbar {
-    padding: 0.5rem 1rem;      /* Reduce the padding inside the navbar */
-    min-height: 70px;          /* Set the minimum height for the navbar */
+hr {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: 2.2rem 0;
+}
+
+/* ────────────────────────────────────────
+   NAVBAR
+──────────────────────────────────────── */
+.navbar {
+  background-color: rgba(13, 17, 23, 0.92) !important;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom: 1px solid rgba(48, 54, 61, 0.8);
+  padding: 0.55rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: $text-primary !important;
+  letter-spacing: -0.02em;
+
+  &:hover {
+    color: $accent-cyan !important;
   }
-  
-  /* Navbar container alignment */
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
+}
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  --bs-navbar-color: #8b949e;
+  --bs-navbar-hover-color: #e6edf3;
+  --bs-navbar-active-color: #58a6ff;
+  --bs-navbar-brand-color: #e6edf3;
+  --bs-navbar-brand-hover-color: #58a6ff;
+}
+
+.nav-item .nav-link {
+  font-family: $font-body;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $text-secondary !important;
+  padding: 0.35rem 0.75rem !important;
+  border-radius: 6px;
+  transition: all 0.18s ease;
+
+  &:hover {
+    color: $text-primary !important;
+    background-color: rgba(255,255,255,0.05);
+  }
+
+  &.active {
+    color: $accent-cyan !important;
+    background-color: rgba(88, 166, 255, 0.08);
+  }
+}
+
+/* ────────────────────────────────────────
+   HERO SECTION
+──────────────────────────────────────── */
+#hero-heading {
+  padding: 3rem 0 2rem;
+  position: relative;
+}
+
+/* gradient name — with solid fallback */
+.about-entity h1.title,
+h1:first-of-type {
+  color: $accent-cyan;            /* solid fallback always visible */
+  background: linear-gradient(135deg, #e6edf3 0%, #58a6ff 55%, #bc8cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.8rem;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  /* if clip fails, text stays cyan, not invisible */
+  @supports not (-webkit-background-clip: text) {
+    color: $accent-cyan;
+  }
+}
+
+/* glowing profile image */
+.about-image img {
+  border: 2px solid rgba(88, 166, 255, 0.6) !important;
+  box-shadow:
+    0 0 0 4px rgba(88, 166, 255, 0.08),
+    0 0 24px rgba(88, 166, 255, 0.2),
+    0 0 60px rgba(88, 166, 255, 0.08);
+  transition: box-shadow 0.35s ease, border-color 0.35s ease;
+
+  &:hover {
+    border-color: rgba(88, 166, 255, 0.9) !important;
+    box-shadow:
+      0 0 0 4px rgba(88, 166, 255, 0.12),
+      0 0 36px rgba(88, 166, 255, 0.35),
+      0 0 80px rgba(88, 166, 255, 0.12);
+  }
+}
+
+/* about-section links */
+.about-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+
+  .about-link {
+    display: inline-flex;
     align-items: center;
-  }
-  
-  /* Navbar brand */
-  .navbar-brand {
-    font-size: 1.25rem;        /* Adjust the font size of the brand */
-  }
-  
-  /* Navbar links */
-  .nav-item .nav-link {
-    padding: 0.5rem 1rem;      /* Reduce padding around links */
-    font-size: 1rem;           /* Adjust link font size */
-  }
-  
-  /* Navbar toggler icon */
-  .navbar-toggler {
-    padding: 0.25rem 0.75rem;  /* Reduce padding for the toggler button */
-  }
-  
-  /* Search and other navbar tools */
-  .quarto-navbar-tools {
-    padding: 0;                /* Ensure no extra padding in navbar tools */
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    background: $bg-card;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    color: $text-secondary !important;
+    font-size: 0.82rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $bg-elevated;
+      border-color: $accent-cyan;
+      color: $accent-cyan !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(88, 166, 255, 0.15);
+    }
   }
 }
 
-/* Title Block Header Styles */
-#title-block-header {
-  padding: 0;                  /* Remove padding from the header */
-  margin-bottom: 0;            /* Remove any bottom margin */
+/* ────────────────────────────────────────
+   STAT BOXES  (with subtle top-gradient bar)
+──────────────────────────────────────── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.85rem;
+  margin: 1.5rem 0;
 }
 
-#title-block-header .quarto-title {
-  margin: 0;                   /* Remove extra margin from the title container */
-  padding: 10px 0;             /* Adjust the padding of the title */
-}
-
-#title-block-header h1.title {
-  margin: 0;                   /* Remove the margin from the h1 title */
-  padding: 10px 0;             /* Adjust the padding around the title text */
-  font-size: 2.5rem;           /* Adjust the font size if needed */
-}
-
-/* Adjust space between header and content */
-main {
-  margin-top: 20px;            /* Control the space between header and content */
-}
-
-
-/* Header styles */
-header {
-  background-color: #fff;
-  color: ##050c92;
-  padding: 3rem 0;
+.stat-box {
+  background: $bg-card;
+  border: 1px solid $border-color;
+  border-top: 2px solid $accent-cyan;
+  border-radius: 10px;
+  padding: 1.4rem 0.6rem 1.1rem;
   text-align: center;
-  
-  nav a {
-    margin: 0 1px;
-    color: #050c92;
-    font-weight: bold;
+  position: relative;
+  overflow: visible;            /* allow labels to show fully */
+  transition: all 0.22s ease;
+
+  /* inner glow – clipped to box via border-radius */
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    background: radial-gradient(ellipse at 50% 0%, rgba(88, 166, 255, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    border-top-color: $accent-cyan;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.4), 0 0 0 1px rgba(88,166,255,0.18);
+  }
+
+  .stat-number {
+    font-family: $font-heading;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: $accent-cyan;
+    display: block;
+    line-height: 1.1;
+  }
+
+  .stat-label {
+    font-size: 0.62rem;          /* slightly smaller so text fits */
+    color: $text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;      /* reduced from 0.07em */
+    margin-top: 0.35rem;
+    font-weight: 500;
+    word-break: break-word;
+    line-height: 1.35;
   }
 }
 
-/* Footer styles */
-footer {
-  background-color: $footer-bg-color;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 14px;
-  border-top: 1px solid #ffffff;
-  
-  .footer-content {
-    color: #666712;
-    a {
-      color: $primary-color;
-      &:hover {
-        color: darken($primary-color, 10%);
+@media (max-width: 600px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ────────────────────────────────────────
+   SKILL TAGS / BADGES
+──────────────────────────────────────── */
+.skill-tag {
+  display: inline-block;
+  padding: 0.28rem 0.72rem;
+  background: rgba(88, 166, 255, 0.08);
+  border: 1px solid rgba(88, 166, 255, 0.25);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-family: $font-mono;
+  color: $accent-cyan;
+  margin: 0.18rem;
+  letter-spacing: 0.01em;
+  transition: all 0.18s ease;
+
+  &:hover {
+    background: rgba(88, 166, 255, 0.16);
+    border-color: rgba(88, 166, 255, 0.55);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(88,166,255,0.15);
+  }
+}
+
+.skill-tag-green {
+  @extend .skill-tag;
+  background: rgba(63, 185, 80, 0.08);
+  border-color: rgba(63, 185, 80, 0.25);
+  color: $accent-green;
+
+  &:hover {
+    background: rgba(63, 185, 80, 0.16);
+    border-color: rgba(63, 185, 80, 0.55);
+    box-shadow: 0 2px 8px rgba(63,185,80,0.12);
+  }
+}
+
+.skill-tag-purple {
+  @extend .skill-tag;
+  background: rgba(188, 140, 255, 0.08);
+  border-color: rgba(188, 140, 255, 0.25);
+  color: $accent-purple;
+
+  &:hover {
+    background: rgba(188, 140, 255, 0.16);
+    border-color: rgba(188, 140, 255, 0.55);
+    box-shadow: 0 2px 8px rgba(188,140,255,0.12);
+  }
+}
+
+.skill-tag-orange {
+  @extend .skill-tag;
+  background: rgba(240, 136, 62, 0.08);
+  border-color: rgba(240, 136, 62, 0.25);
+  color: $accent-orange;
+
+  &:hover {
+    background: rgba(240, 136, 62, 0.16);
+    border-color: rgba(240, 136, 62, 0.55);
+    box-shadow: 0 2px 8px rgba(240,136,62,0.12);
+  }
+}
+
+/* ────────────────────────────────────────
+   SECTION LABELS  (terminal comment style)
+──────────────────────────────────────── */
+.section-label {
+  font-family: $font-mono;
+  font-size: 0.7rem;
+  color: $text-muted;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.6rem;
+  display: block;
+
+  &::before {
+    content: '// ';
+    color: rgba(88, 166, 255, 0.4);
+  }
+}
+
+/* ────────────────────────────────────────
+   TIMELINE
+──────────────────────────────────────── */
+.timeline-entry {
+  position: relative;
+  padding: 0.75rem 0 0.75rem 1.6rem;
+  margin-bottom: 0.5rem;
+  border-left: 1px solid $border-color;
+  transition: border-color 0.2s ease;
+
+  /* dot */
+  &::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 1.15rem;
+    width: 7px;
+    height: 7px;
+    background: $accent-cyan;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(88, 166, 255, 0.55);
+    transition: box-shadow 0.2s ease;
+  }
+
+  &:hover {
+    border-left-color: $accent-cyan;
+
+    &::before {
+      box-shadow: 0 0 12px rgba(88, 166, 255, 0.8);
+    }
+  }
+
+  .timeline-role {
+    font-weight: 600;
+    color: $text-primary;
+    font-size: 0.95rem;
+  }
+
+  .timeline-date {
+    color: $text-muted;
+    font-size: 0.75rem;
+    font-family: $font-mono;
+    margin-top: 0.1rem;
+    margin-bottom: 0.35rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: $text-secondary;
+    margin-bottom: 0;
+    line-height: 1.55;
+  }
+}
+
+/* ────────────────────────────────────────
+   CV ROLE CARDS
+──────────────────────────────────────── */
+.cv-role {
+  background: $bg-card;
+  border: 1px solid $border-color;
+  border-left: 3px solid $accent-cyan;
+  border-radius: 0 10px 10px 0;
+  padding: 1.1rem 1.4rem;
+  margin-bottom: 0.9rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.22s ease;
+
+  /* faint top-right glow blob */
+  &::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, rgba(88,166,255,0.07), transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    border-left-color: $accent-green;
+    background: $bg-elevated;
+    transform: translateX(4px);
+    box-shadow: -3px 0 12px rgba(63,185,80,0.1);
+  }
+
+  .role-title {
+    font-weight: 600;
+    color: $text-primary;
+    font-size: 0.98rem;
+  }
+
+  .role-company {
+    color: $accent-cyan;
+    font-size: 0.86rem;
+    margin-top: 0.15rem;
+    font-weight: 500;
+  }
+
+  .role-date {
+    font-family: $font-mono;
+    font-size: 0.72rem;
+    color: $text-muted;
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+  }
+
+  ul {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+
+    li {
+      color: $text-secondary;
+      font-size: 0.88rem;
+      margin-bottom: 0.25rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+/* ────────────────────────────────────────
+   CERTIFICATION ITEMS
+──────────────────────────────────────── */
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 1rem;
+  background: $bg-card;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  font-size: 0.88rem;
+  color: $text-secondary;
+  transition: all 0.18s ease;
+
+  &::before {
+    content: '◆';
+    color: $accent-cyan;
+    font-size: 0.6rem;
+    flex-shrink: 0;
+  }
+
+  strong {
+    color: $text-primary;
+  }
+
+  &:hover {
+    border-color: rgba(88,166,255,0.4);
+    background: $bg-elevated;
+    transform: translateX(3px);
+  }
+}
+
+/* ────────────────────────────────────────
+   PUBLICATIONS
+──────────────────────────────────────── */
+.pub-item {
+  padding: 0.9rem 1.2rem;
+  background: $bg-card;
+  border: 1px solid $border-color;
+  border-left: 3px solid $accent-purple;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 0.7rem;
+  color: $text-secondary;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  transition: all 0.2s ease;
+
+  strong {
+    color: $text-primary;
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 0.92rem;
+  }
+
+  &:hover {
+    border-left-color: $accent-cyan;
+    background: $bg-elevated;
+  }
+}
+
+/* ────────────────────────────────────────
+   AFFILIATION PILLS
+──────────────────────────────────────── */
+.affil-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.38rem 0.9rem;
+  background: rgba(63, 185, 80, 0.07);
+  border: 1px solid rgba(63, 185, 80, 0.22);
+  border-radius: 20px;
+  color: $accent-green;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+
+  &::before {
+    content: '●';
+    font-size: 0.45rem;
+    opacity: 0.7;
+  }
+}
+
+/* ────────────────────────────────────────
+   TABLES  (CV page)
+──────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+
+  th {
+    background: $bg-elevated;
+    color: $text-secondary;
+    font-family: $font-mono;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid $border-color;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  td {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid $border-subtle;
+    color: $text-secondary;
+    vertical-align: top;
+  }
+
+  tr:hover td {
+    background: $bg-elevated;
+    color: $text-primary;
+  }
+
+  em {
+    color: $text-muted;
+    font-style: italic;
+  }
+}
+
+/* ────────────────────────────────────────
+   CODE BLOCKS
+──────────────────────────────────────── */
+code {
+  font-family: $font-mono;
+  background: rgba(88,166,255,0.08);
+  border: 1px solid rgba(88,166,255,0.18);
+  color: $accent-cyan;
+  padding: 0.12rem 0.42rem;
+  border-radius: 4px;
+  font-size: 0.83em;
+}
+
+pre {
+  background: $bg-secondary !important;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  padding: 1.2rem;
+  overflow-x: auto;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 52px;
+    height: 10px;
+    margin-bottom: 0.8rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='10'%3E%3Ccircle cx='5' cy='5' r='4' fill='%23ff7b72'/%3E%3Ccircle cx='21' cy='5' r='4' fill='%23f0883e'/%3E%3Ccircle cx='37' cy='5' r='4' fill='%233fb950'/%3E%3C/svg%3E") no-repeat;
+  }
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+    color: $text-primary;
+  }
+}
+
+/* ────────────────────────────────────────
+   SHIELD BADGES
+──────────────────────────────────────── */
+img[src*="shields.io"] {
+  border-radius: 6px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  filter: brightness(0.88) saturate(0.9);
+
+  &:hover {
+    transform: translateY(-2px) scale(1.04);
+    filter: brightness(1) saturate(1.1);
+  }
+}
+
+/* ────────────────────────────────────────
+   ABOUT-CONTENTS (trestles template)
+──────────────────────────────────────── */
+.about-contents {
+  h3 {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $accent-green;
+    margin-top: 1.8rem;
+    margin-bottom: 0.65rem;
+
+    &::before {
+      content: '> ';
+      color: $text-muted;
+    }
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      color: $text-secondary;
+      padding: 0.18rem 0;
+      font-size: 0.94rem;
+
+      &::before {
+        content: '→ ';
+        color: $accent-cyan;
+        font-family: $font-mono;
+        font-size: 0.85em;
       }
     }
   }
 }
 
-/* Button styles */
-button, .btn {
-  background-color: $primary-color;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  &:hover {
-    background-color: darken($primary-color, 10%);
+/* ────────────────────────────────────────
+   FOOTER
+──────────────────────────────────────── */
+.nav-footer {
+  background-color: $bg-secondary !important;
+  border-top: 1px solid $border-color;
+  padding: 1rem 2rem;
+  color: $text-muted;
+  font-size: 0.82rem;
+
+  a {
+    color: $accent-cyan;
+    &:hover { color: lighten($accent-cyan, 15%); }
   }
 }
 
-/* Code blocks styling */
-code {
-  background-color: #eee;
-  padding: 2px 4px;
-  border-radius: 3px;
+/* ────────────────────────────────────────
+   ANIMATIONS
+──────────────────────────────────────── */
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Custom footer layout */
-.quarto-footer {
-  background-color: $footer-bg-color;
-  padding: 15px 0;
-  color: #666;
-  a {
-    color: $primary-color;
-    &:hover {
-      color: darken($primary-color, 10%);
+#hero-heading {
+  animation: fadeSlideUp 0.55s ease forwards;
+}
+
+.stat-box {
+  animation: fadeSlideUp 0.5s ease both;
+
+  &:nth-child(1) { animation-delay: 0.05s; }
+  &:nth-child(2) { animation-delay: 0.12s; }
+  &:nth-child(3) { animation-delay: 0.19s; }
+  &:nth-child(4) { animation-delay: 0.26s; }
+}
+
+/* ────────────────────────────────────────
+   SEARCH
+──────────────────────────────────────── */
+.aa-DetachedOverlay, .aa-Panel {
+  background: $bg-secondary !important;
+  border: 1px solid $border-color !important;
+  border-radius: 10px;
+}
+
+.aa-Input {
+  background: $bg-card !important;
+  color: $text-primary !important;
+  border-color: $border-color !important;
+}
+
+/* ────────────────────────────────────────
+   RESPONSIVE
+──────────────────────────────────────── */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.35rem; }
+
+  body {
+    background-size: 20px 20px;
+  }
+}
+
+/* ────────────────────────────────────────
+   SCROLLBAR
+──────────────────────────────────────── */
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: $bg-primary; }
+::-webkit-scrollbar-thumb {
+  background: $bg-elevated;
+  border-radius: 4px;
+  &:hover { background: $border-color; }
+}
+
+/* ────────────────────────────────────────
+   LIGHT MODE OVERRIDES
+   (active when user toggles to light theme)
+──────────────────────────────────────── */
+[data-bs-theme="light"] {
+
+  body {
+    background-color: #f6f8fa;
+    background-image: radial-gradient(circle, rgba(9, 105, 218, 0.05) 1px, transparent 1px);
+    background-size: 28px 28px;
+    color: #1a1e27;
+  }
+
+  h2 {
+    color: #1a1e27;
+    &::after {
+      background: linear-gradient(to right, rgba(9, 105, 218, 0.4), transparent);
     }
   }
+
+  h3 { color: #1a1e27; }
+
+  p { color: #444d56; }
+
+  strong { color: #1a1e27; }
+
+  /* Navbar */
+  .navbar {
+    background-color: rgba(246, 248, 250, 0.95) !important;
+    border-bottom-color: #d0d7de;
+  }
+
+  .navbar-brand { color: #1a1e27 !important; }
+
+  .nav-item .nav-link {
+    color: #444d56 !important;
+    &:hover  { color: #1a1e27 !important; background-color: rgba(0,0,0,0.04); }
+    &.active { color: #0969da !important; background-color: rgba(9,105,218,0.08); }
+  }
+
+  /* Stat boxes */
+  .stat-box {
+    background: #ffffff;
+    border-color: #d0d7de;
+    border-top-color: #0969da;
+
+    &::before {
+      background: radial-gradient(ellipse at 50% 0%, rgba(9,105,218,0.06) 0%, transparent 70%);
+    }
+
+    &:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1), 0 0 0 1px rgba(9,105,218,0.15);
+    }
+
+    .stat-number { color: #0969da; }
+    .stat-label  { color: #6e7781; }
+  }
+
+  /* Skill tags */
+  .skill-tag {
+    background: rgba(9, 105, 218, 0.07);
+    border-color: rgba(9, 105, 218, 0.25);
+    color: #0969da;
+    &:hover { background: rgba(9,105,218,0.14); border-color: rgba(9,105,218,0.5); }
+  }
+
+  .skill-tag-green {
+    background: rgba(31, 136, 61, 0.07);
+    border-color: rgba(31, 136, 61, 0.25);
+    color: #1a7f37;
+    &:hover { background: rgba(31,136,61,0.14); }
+  }
+
+  .skill-tag-purple {
+    background: rgba(130, 80, 223, 0.07);
+    border-color: rgba(130, 80, 223, 0.25);
+    color: #8250df;
+    &:hover { background: rgba(130,80,223,0.14); }
+  }
+
+  .skill-tag-orange {
+    background: rgba(188, 90, 0, 0.07);
+    border-color: rgba(188, 90, 0, 0.25);
+    color: #bc5a00;
+    &:hover { background: rgba(188,90,0,0.14); }
+  }
+
+  /* Section label */
+  .section-label {
+    color: #6e7781;
+    &::before { color: rgba(9,105,218,0.4); }
+  }
+
+  /* Timeline */
+  .timeline-entry {
+    border-left-color: #d0d7de;
+    &::before { background: #0969da; box-shadow: 0 0 6px rgba(9,105,218,0.4); }
+    &:hover   { border-left-color: #0969da; }
+    p { color: #444d56; }
+  }
+
+  .timeline-role  { color: #1a1e27; }
+  .timeline-date  { color: #6e7781; }
+
+  /* CV role cards */
+  .cv-role {
+    background: #ffffff;
+    border-color: #d0d7de;
+    border-left-color: #0969da;
+    &:hover { background: #f6f8fa; border-left-color: #1a7f37; box-shadow: -3px 0 10px rgba(26,127,55,0.1); }
+    .role-title   { color: #1a1e27; }
+    .role-company { color: #0969da; }
+    .role-date    { color: #6e7781; }
+    ul li         { color: #444d56; }
+    &::after      { background: radial-gradient(circle, rgba(9,105,218,0.05), transparent 70%); }
+  }
+
+  /* Cert items */
+  .cert-item {
+    background: #ffffff;
+    border-color: #d0d7de;
+    color: #444d56;
+    &::before { color: #0969da; }
+    &:hover   { border-color: rgba(9,105,218,0.4); background: #f6f8fa; }
+  }
+
+  /* Publications */
+  .pub-item {
+    background: #ffffff;
+    border-color: #d0d7de;
+    border-left-color: #8250df;
+    color: #444d56;
+    strong { color: #1a1e27; }
+    &:hover { border-left-color: #0969da; background: #f6f8fa; }
+  }
+
+  /* Affiliations */
+  .affil-item {
+    background: rgba(26, 127, 55, 0.06);
+    border-color: rgba(26, 127, 55, 0.2);
+    color: #1a7f37;
+  }
+
+  /* Footer */
+  .nav-footer {
+    background-color: #eaeef2 !important;
+    border-top-color: #d0d7de;
+    color: #6e7781;
+    a { color: #0969da; }
+  }
+
+  /* Tables */
+  table {
+    th { background: #eaeef2; color: #6e7781; border-bottom-color: #d0d7de; }
+    td { border-bottom-color: #eaeef2; color: #444d56; }
+    tr:hover td { background: #f6f8fa; color: #1a1e27; }
+  }
+
+  /* Inline code */
+  code {
+    background: rgba(9,105,218,0.07);
+    border-color: rgba(9,105,218,0.18);
+    color: #0969da;
+  }
+
+  /* About-contents */
+  .about-contents {
+    h3 { color: #1a7f37; &::before { color: #6e7781; } }
+    p  { color: #444d56; }
+    ul li { color: #444d56; &::before { color: #0969da; } }
+  }
+
+  /* Profile image — softer light-mode glow */
+  .about-image img {
+    border-color: rgba(9, 105, 218, 0.5) !important;
+    box-shadow: 0 0 0 4px rgba(9,105,218,0.06), 0 0 20px rgba(9,105,218,0.15) !important;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar-track { background: #f6f8fa; }
+  ::-webkit-scrollbar-thumb { background: #d0d7de; &:hover { background: #b0b8c4; } }
 }

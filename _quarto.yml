@@ -1,0 +1,54 @@
+project:
+  title: "Mahesh Divakaran"
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mahesh Divakaran"
+  site-url: "https://itsmdivakaran.github.io"
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: "#0d1117"
+    foreground: "#e6edf3"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: resources.qmd
+        text: Resources
+      - href: cv.qmd
+        text: CV
+        target: _blank
+      - icon: github
+        href: https://github.com/itsmdivakaran
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/imaheshdivakaran/
+        target: _blank
+  page-footer:
+    background: "#0d1117"
+    foreground: "#8b949e"
+    left: "© 2025 Mahesh Divakaran · Senior Statistical Programmer & Clinical Data Scientist"
+    right: "Built with <i class='fas fa-heart' style='color:#ff6b6b'></i> using <a href='https://quarto.org/' target='_blank' style='color:#58a6ff'>Quarto</a> & <a href='https://www.r-project.org/' target='_blank' style='color:#58a6ff'>R</a>"
+
+publish:
+  gh-pages:
+    branch: gh-pages
+    repo: itsmdivakaran/itsmdivakaran.github.io
+
+format:
+  html:
+    theme:
+      light: [cosmo, style.scss]
+      dark:  [darkly, style.scss]
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

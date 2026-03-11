@@ -1,0 +1,214 @@
+---
+title: "About"
+toc: false
+---
+
+<span class="section-label">profile</span>
+
+# Mahesh Divakaran
+
+Hi — I'm a **Senior Statistical Programmer and Clinical Data Scientist** with **close to a decade** of experience in clinical data analysis, CDISC standards, and statistical programming. I currently work at **IQVIA** and am pursuing my **PhD in Statistics** at Amity University.
+
+My work sits at the intersection of statistics, software engineering, and clinical research — building tools that help pharmaceutical teams analyze, visualize, and report clinical trial data with greater speed and accuracy.
+
+---
+
+## Professional Experience
+
+::: {.cv-role}
+[**Senior Statistical Programmer**]{.role-title}
+
+[IQVIA RDS Pvt. Ltd. · India]{.role-company}
+
+[July 2024 – Present]{.role-date}
+
+- Lead R package development and validation for clinical trial reporting workflows
+- Maintain and expand an R package catalogue for reproducibility and compliance
+- Drive TLG (Tables, Listings, Graphs) generation using validated R packages in line with CDISC and regulatory standards
+:::
+
+::: {.cv-role}
+[**Associate Lead – Clinical Data Analytics**]{.role-title}
+
+[Genpro Research Pvt. Ltd. · Trivandrum, Kerala]{.role-company}
+
+[April 2023 – July 2024]{.role-date}
+
+- Led development of R Shiny dashboards for clinical data visualization and TFL reporting automation
+- Architected and maintained R packages for end-to-end SDTM, ADaM, and TFL creation
+- Mentored and trained analysts in open-source clinical reporting tools
+:::
+
+::: {.cv-role}
+[**Part-Time Lecturer in Biostatistics**]{.role-title}
+
+[Gulf Medical University · UAE (Remote)]{.role-company}
+
+[January 2022 – August 2023]{.role-date}
+
+- Taught Biostatistics to medical students covering descriptive statistics, inferential methods, clinical trial design, and data interpretation
+:::
+
+::: {.cv-role}
+[**Data Analyst Level II**]{.role-title}
+
+[Genpro Research Pvt. Ltd. · Trivandrum, Kerala]{.role-company}
+
+[April 2022 – March 2023]{.role-date}
+
+- Developed R Shiny dashboards for clinical data visualization and interactive trial reporting
+- Built R packages to automate ADaM dataset generation and SAS date conversion within R environments
+:::
+
+::: {.cv-role}
+[**Statistical Programmer Level I**]{.role-title}
+
+[Genpro Research Pvt. Ltd. · Trivandrum, Kerala]{.role-company}
+
+[September 2019 – March 2022]{.role-date}
+
+- Converted clinical study datasets to CDISC/SDTM standards across multiple therapeutic areas
+- Developed SAS macro programs for ADaM dataset generation and TFL creation
+- Generated XML outputs for FDA regulatory submissions
+:::
+
+::: {.cv-role}
+[**Data Scientist**]{.role-title}
+
+[Menerva Software · Cochin, Kerala]{.role-company}
+
+[February 2019 – November 2019]{.role-date}
+
+- Developed Medical Entity Recognition (Bio-NER) models for insurance data processing
+- Researched cryptocurrency value forecasting for Ethereum tokens using time-series models
+:::
+
+::: {.cv-role}
+[**Data Scientist / ML Developer**]{.role-title}
+
+[Suyati Technologies · Cochin, Kerala]{.role-company}
+
+[June 2018 – January 2019]{.role-date}
+
+- Developed machine learning models for Pricing Intelligence, Sales Forecasting, and CLTV prediction
+- Delivered a webinar on 'Buy Till You Die model for CLTV' to industry professionals
+:::
+
+::: {.cv-role}
+[**Business Analyst**]{.role-title}
+
+[BRIDGEi2i Analytics Solutions Pvt. Ltd. · Bangalore]{.role-company}
+
+[May 2017 – May 2018]{.role-date}
+
+- Performed Tweet Sentiment Analysis using NLP techniques
+- Contributed to Chatbot development using NLU frameworks
+- Built regression, classification, and dynamic pricing models
+:::
+
+---
+
+## Technical Skills
+
+<span class="section-label">statistical programming</span>
+
+<span class="skill-tag">R (Advanced)</span>
+<span class="skill-tag">Python (Advanced)</span>
+<span class="skill-tag">SAS Base</span>
+<span class="skill-tag">SAS Macros</span>
+<span class="skill-tag">SAS/STAT</span>
+<span class="skill-tag">R Package Development</span>
+<span class="skill-tag">R Shiny</span>
+<span class="skill-tag">R Markdown</span>
+
+<span class="section-label">clinical & regulatory</span>
+
+<span class="skill-tag-green">CDISC Standards</span>
+<span class="skill-tag-green">SDTM</span>
+<span class="skill-tag-green">ADaM</span>
+<span class="skill-tag-green">TLG / TFL Programming</span>
+<span class="skill-tag-green">Define.xml</span>
+<span class="skill-tag-green">FDA XML Submissions</span>
+<span class="skill-tag-green">CSR & SAP Automation</span>
+
+<span class="section-label">pharmaverse tools</span>
+
+<span class="skill-tag-orange">admiral</span>
+<span class="skill-tag-orange">sdtm.oak</span>
+<span class="skill-tag-orange">xportr</span>
+<span class="skill-tag-orange">metacore</span>
+<span class="skill-tag-orange">rtables</span>
+
+<span class="section-label">data visualization</span>
+
+<span class="skill-tag-purple">Tableau</span>
+<span class="skill-tag-purple">Power BI</span>
+<span class="skill-tag-purple">ggplot2</span>
+<span class="skill-tag-purple">Plotly</span>
+<span class="skill-tag-purple">Matplotlib</span>
+
+<span class="section-label">machine learning & ai</span>
+
+<span class="skill-tag">Supervised Learning</span>
+<span class="skill-tag">Unsupervised Learning</span>
+<span class="skill-tag">NLP / NER</span>
+<span class="skill-tag">CNNs / RNNs</span>
+<span class="skill-tag">Generative AI</span>
+<span class="skill-tag">CLTV Models</span>
+
+---
+
+## Education
+
+- **PhD in Statistics** (In Progress) — Amity University, Lucknow, Uttar Pradesh · 2024–Present
+- **Diploma in Project Management** — Oxford Home Study Center (OHSC), Oxford · 2023
+- **M.Sc. in Statistics** — Cochin University of Science and Technology, Kerala · 2015–2017
+- **B.Sc. in Statistics** — Christian College, Kattakada, University of Kerala · 2012–2015
+
+---
+
+## Certifications
+
+::: {.cert-item}
+**SAS Certified Base Programmer** · SAS Institute · 2021
+:::
+::: {.cert-item}
+**IBM Data Science Professional Certification** · IBM · 2020
+:::
+::: {.cert-item}
+**Data Science Specialization (R)** · Johns Hopkins University / Coursera · 2022
+:::
+::: {.cert-item}
+**Google Data Analytics Professional Certification** · Google · 2023
+:::
+::: {.cert-item}
+**Google Project Management Professional Certification** · Google · 2024
+:::
+::: {.cert-item}
+**Career Essentials in Data Analysis** · Microsoft & LinkedIn · 2023
+:::
+::: {.cert-item}
+**SDTM001: Introduction to Study Data Tabulation Model** · CDISC
+:::
+
+---
+
+## Professional Affiliations
+
+<span class="affil-item">Volunteer – CDISC Open-Source Alliance (COSA)</span>
+<span class="affil-item">Volunteer – Kerala Police Cyberdome</span>
+<span class="affil-item">Life Member – Indian Society for Probability and Statistics</span>
+
+---
+
+## Interests
+
+When I'm not building clinical pipelines or writing papers, I enjoy exploring the latest in Data Science and AI, solving complex statistical puzzles, community volunteering, and travel photography.
+
+---
+
+## Connect with Me
+
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imaheshdivakaran/)
+[![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itsmdivakaran)
+[![](https://img.shields.io/badge/Email-D13832?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imaheshdivakaran@gmail.com)
