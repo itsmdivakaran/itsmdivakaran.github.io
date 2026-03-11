@@ -1,53 +1,137 @@
 ---
 title: "Mahesh Divakaran"
-image: md.jpeg  # Make sure you upload your image to the repository
+image: md.jpeg
 image-shape: round
 image-width: 200px
-about: 
+about:
   id: hero-heading
-  template: trestles 
+  template: trestles
   image-shape: round
   image-width: 17em
   links:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/imaheshdivakaran/
+      target: _blank
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/itsmdivakaran
-toc: false  # This disables the side navigation
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:imaheshdivakaran@gmail.com
+toc: false
 number-sections: false
 ---
-:::{#hero-heading}
 
-**Welcome to my professional page! Here you'll find information about my work, expertise, and blog posts.** Navigate using the sidebar or the top menu.
+::: {#hero-heading}
 
-###  Bio
-I am a seasoned data scientist specializing in clinical data analysis. With over eight years of experience, I am currently pursuing my PhD in Statistics and work as a Senior Statistical Programmer at IQVIA.
+<span class="section-label">who am i</span>
 
-### Education
+**Senior Statistical Programmer · Clinical Data Scientist · PhD Candidate**
 
-**Amity University** | Lucknow, Uttar Pradesh  
-PhD in Statistics (Ongoing) | 2024 - Present
+I have **close to a decade** of experience specializing in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL programming. Currently a **Senior Statistical Programmer at IQVIA** and PhD candidate in Statistics at Amity University, based in **Trivandrum, Kerala, India**.
 
-**Diploma in Project Management** 
-Oxford Home Study Center | 2023
-
-**Cochin University of Science and Technology** | Cochin, Kerala  
-M.Sc in Statistics | 2015 - 2017
-
-
-### Experience
-
-- **IQVIA** | Senior Statistical Programmer | July 2024 - Present  
-- **Genpro Research** | Associate Lead, Clinical Data Analytics | April 2023 - July 2024  
+I build R packages, automate clinical pipelines, present at international PHUSE conferences, and teach Biostatistics.
 
 ---
 
-### Connect with Me
+## At a Glance
+
+::: {.stat-grid}
+::: {.stat-box}
+[9+]{.stat-number}
+[Years Experience]{.stat-label}
+:::
+::: {.stat-box}
+[4]{.stat-number}
+[PHUSE Papers]{.stat-label}
+:::
+::: {.stat-box}
+[7]{.stat-number}
+[Certifications]{.stat-label}
+:::
+::: {.stat-box}
+[20+]{.stat-number}
+[Conferences]{.stat-label}
+:::
+:::
+
+---
+
+## Core Skills
+
+<span class="section-label">statistical programming</span>
+
+<span class="skill-tag">R (Advanced)</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">R Package Dev</span>
+<span class="skill-tag">R Shiny</span>
+<span class="skill-tag">SAS Base</span>
+<span class="skill-tag">SAS Macros</span>
+
+
+<span class="section-label">clinical standards</span>
+
+<span class="skill-tag-green">CDISC</span>
+<span class="skill-tag-green">SDTM</span>
+<span class="skill-tag-green">ADaM</span>
+<span class="skill-tag-green">TLG / TFL</span>
+<span class="skill-tag-green">FDA Regulatory</span>
+<span class="skill-tag-green">Define.xml</span>
+
+<span class="section-label">pharmaverse</span>
+
+<span class="skill-tag-orange">admiral</span>
+<span class="skill-tag-orange">sdtm.oak</span>
+<span class="skill-tag-orange">xportr</span>
+<span class="skill-tag-orange">rtables</span>
+
+<span class="section-label">visualization & tooling</span>
+
+<span class="skill-tag-purple">Tableau</span>
+<span class="skill-tag-purple">Power BI</span>
+<span class="skill-tag-purple">ggplot2</span>
+<span class="skill-tag-purple">Plotly</span>
+<span class="skill-tag-purple">Git / GitHub</span>
+
+---
+
+## Recent Experience
+
+::: {.timeline-entry}
+[**Senior Statistical Programmer · IQVIA RDS Pvt. Ltd.**]{.timeline-role}
+
+[July 2024 – Present]{.timeline-date}
+
+Lead R package development and validation for clinical trial reporting. Drive TLG generation aligned with CDISC and regulatory standards.
+:::
+
+::: {.timeline-entry}
+[**Associate Lead, Clinical Data Analytics · Genpro Research**]{.timeline-role}
+
+[April 2023 – July 2024]{.timeline-date}
+
+Led R Shiny dashboard development and R package architecture for end-to-end SDTM/ADaM/TFL automation. Mentored junior analysts.
+:::
+
+::: {.timeline-entry}
+[**Part-Time Lecturer in Biostatistics · Gulf Medical University, UAE**]{.timeline-role}
+
+[January 2022 – August 2023]{.timeline-date}
+
+Taught descriptive statistics, inferential methods, and clinical trial design to medical students.
+:::
+
+[→ View full CV for complete work history](/cv.qmd){target="_blank"}
+
+---
+
+## Connect
 
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imaheshdivakaran/)
 [![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itsmdivakaran)
 [![](https://img.shields.io/badge/Email-D13832?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imaheshdivakaran@gmail.com)
----
+[![](https://img.shields.io/badge/PHUSE-Member-005EB8?style=for-the-badge&logoColor=white)](https://www.phuse.eu/)
+
 :::

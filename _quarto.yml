@@ -7,45 +7,48 @@ website:
   title: "Mahesh Divakaran"
   site-url: "https://itsmdivakaran.github.io"
   open-graph: true
-  search: 
+  search:
     location: navbar
     type: overlay
   navbar:
-      right: # accepts right/left/center; you can also place items individually on the left, right, and center
-        - href: index.qmd
-          text: Home
-        - about.qmd
-        - href: resources.qmd
-          text: Resources
-        - href: cv.qmd 
-          text: CV
-          target: _blank # opens link (or page) in a new browser tab
-        - icon: github # add icons as navbar buttons
-          href: https://github.com/itsmdivakaran
-          target: _blank
+    background: "#0d1117"
+    foreground: "#e6edf3"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: resources.qmd
+        text: Resources
+      - href: cv.qmd
+        text: CV
+        target: _blank
+      - icon: github
+        href: https://github.com/itsmdivakaran
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/imaheshdivakaran/
+        target: _blank
   page-footer:
-          background: light
-          left: Copyright 2024, Mahesh Divakaran
-          right: This website is built with <i class="fas fa-heart" title="a heart"></i>, 
-                 <a href="https://github.com/itsmdivakaran/itsmdivakaran.github.io" target="_blank"><i class="fab fa-github" title="GitHub octocat logo"></i></a>, 
-                 <a href="https://www.r-project.org/about.html" target="_blank"><i class="fab fa-r-project" title="R Project"></i></a> and 
-                 <a href="https://quarto.org/" target="_blank">Quarto</a>
-      
+    background: "#0d1117"
+    foreground: "#8b949e"
+    left: "© 2025 Mahesh Divakaran · Senior Statistical Programmer & Clinical Data Scientist"
+    right: "Built with <i class='fas fa-heart' style='color:#ff6b6b'></i> using <a href='https://quarto.org/' target='_blank' style='color:#58a6ff'>Quarto</a> & <a href='https://www.r-project.org/' target='_blank' style='color:#58a6ff'>R</a>"
+
 publish:
   gh-pages:
-    branch: gh-pages   # In this case, you will publish directly to the main branch
-    repo: itsmdivakaran/itsmdivakaran.github.io   # Special GitHub Pages repository
+    branch: gh-pages
+    repo: itsmdivakaran/itsmdivakaran.github.io
+
 format:
   html:
-    theme: cosmo
-    toc: true
-    toc-location: left  # Sidebar on the left
-    toc-title: "Mahesh Divakaran"  # Title for the sidebar
-    number-sections: true  # Optional: Number your sections
-    number-depth: 2
-    css: style.scss
-    font: 
-      - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    
-    
-      
+    theme:
+      light: [cosmo, style.scss]
+      dark:  [darkly, style.scss]
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
