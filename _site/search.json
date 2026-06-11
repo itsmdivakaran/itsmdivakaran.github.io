@@ -21,6 +21,104 @@
     "text": "Connect with Me"
   },
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "curriculum vitae"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "Curriculum Vitae",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nSenior Technical Lead (Statistical Programming) and Clinical Data Scientist with close to a decade (9+ years) of experience in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL generation. Currently a PhD candidate in Statistics at Amity University. Expert in R, SAS, and Python with a strong track record of building R packages, automating clinical reporting pipelines, and developing R Shiny dashboards for data visualization. International conference presenter (PHUSE US & EU), SAS Certified Base Programmer, and part-time Biostatistics lecturer. Experienced in regulatory submissions (FDA XML outputs) and cross-functional team leadership."
+  },
+  {
+    "objectID": "cv.html#core-competencies",
+    "href": "cv.html#core-competencies",
+    "title": "Curriculum Vitae",
+    "section": "Core Competencies",
+    "text": "Core Competencies\nR Programming (Advanced) SAS Base / Macros / STAT Python SDTM & ADaM Programming TLG / TFL Generation CDISC Standards FDA Regulatory Submissions R Package Development R Shiny Dashboard Development Tableau & Power BI Statistical Analysis Plan (SAP) Biostatistics Machine Learning NLP / NER Team Leadership & Mentoring"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nSenior Technical Lead – Statistical Programming\nEphicacy Lifescience Analytics · Full-time · Trivandrum, Kerala, India (Remote)\nMarch 2026 – Present\n\nLead statistical programming deliverables for clinical trials, ensuring CDISC (SDTM/ADaM) and regulatory compliance\nDrive R-based automation of clinical reporting workflows and mentor programming teams\n\n\n\nSenior Statistical Programmer\nIQVIA RDS Pvt. Ltd. · India\nJuly 2024 – March 2026\n\nLead R package development and validation activities for clinical trial reporting workflows\nMaintain and expand an R package catalogue documenting packages used across clinical studies to ensure reproducibility and compliance\nDrive TLG (Tables, Listings, Graphs) generation using validated R packages in line with CDISC and regulatory standards\n\n\n\nAssociate Lead – Clinical Data Analytics\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala, India\nApril 2023 – July 2024\n\nLed development of R Shiny dashboards for clinical data visualization and TFL reporting automation, reducing manual effort significantly\nArchitected and maintained R packages for end-to-end automation of SDTM, ADaM, and TFL creation, improving team throughput and consistency\nMentored and trained a team of analysts in open-source clinical reporting tools, building in-house R capabilities\nCreated R-based standard scripts to generate ADaM datasets and produce listings, tables, and graphs\nDeveloped SAS programs for clinical summaries and listings in compliance with CDISC standards\n\n\n\nData Analyst Level II\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala, India\nApril 2022 – March 2023\n\nDeveloped R Shiny dashboards for clinical data visualization and interactive trial reporting\nBuilt R packages to automate ADaM dataset generation and SAS date conversion within R environments\nProduced SAS programs for clinical data summaries and listings\nCreated R Markdown-based documentation and catalogues for R scripts\n\n\n\nStatistical Programmer Level I\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala, India\nSeptember 2019 – March 2022\n\nConverted clinical study datasets to CDISC/SDTM standards across multiple therapeutic areas including Phlebotomy and Gastroenterology\nDeveloped SAS macro programs for ADaM dataset generation and TFL creation\nProgrammed multiple SDTM domains and authored patient narratives for clinical study reports\nGenerated XML outputs for FDA regulatory submissions\nConducted COVID-19 and medical prescription data analyses using R, applying Lasso and Ridge Regression statistical models\n\n\n\nData Scientist\nMenerva Software · Cochin, Kerala, India\nFebruary 2019 – November 2019\n\nDeveloped Medical Entity Recognition (Bio-NER) models for insurance data processing\nPerformed customer and promotion analysis for a large coffee chain using advanced statistical techniques\nResearched cryptocurrency value forecasting for Ethereum tokens using time-series models\n\n\n\nData Scientist / ML Developer\nSuyati Technologies · Cochin, Kerala, India\nJune 2018 – January 2019\n\nDeveloped machine learning models for Pricing Intelligence, Sales Forecasting, and Customer Lifetime Value (CLTV) prediction\nDelivered a webinar on ‘Buy Till You Die model for CLTV’ to industry professionals\n\n\n\nBusiness Analyst\nBRIDGEi2i Analytics Solutions Pvt. Ltd. · Bangalore, India\nMay 2017 – May 2018\n\nPerformed Tweet Sentiment Analysis using NLP techniques\nContributed to Chatbot development using NLU frameworks\nBuilt regression and classification models and developed dynamic pricing models"
+  },
+  {
+    "objectID": "cv.html#teaching-experience",
+    "href": "cv.html#teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nPart-Time Lecturer in Biostatistics\nGulf Medical University · UAE (Remote)\nJanuary 2022 – August 2023\n\nTaught Biostatistics to medical students, covering descriptive statistics, inferential methods, clinical trial design, and data interpretation"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nStatistical Programming R (Advanced) · Python (Advanced) · SAS Base SAS · SAS Macros · SAS/STAT (Certified)\nClinical Standards SDTM · ADaM · CDISC Standards · TLG/TFL Programming · CSR & SAP Automation · Define.xml · FDA XML Submissions\nPharmaverse Tools admiral · sdtm.oak · xportr · metacore · tlg · rtables\nR Ecosystem R Shiny · R Package Development · R Markdown · ggplot2 · tidyverse (dplyr, tidyr) · Plotly · survival · caret\nPython Ecosystem pandas · NumPy · Matplotlib · scikit-learn · TensorFlow / PyTorch\nMachine Learning & AI Supervised & Unsupervised Learning · CNNs · RNNs · NER · Text Classification · Generative AI · CLTV Models\nData Visualization R Shiny · ggplot2 · Plotly · Matplotlib · Tableau · Power BI\nStatistical Methods Survival Analysis · Mixed Models · ANOVA · Logistic Regression · Epidemiological Modelling\nVersion Control & Productivity Git · GitHub · Microsoft Office · LaTeX"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nPhD in Statistics (In Progress)\nAmity University, Lucknow, Uttar Pradesh\n2024–Present\n\n\nDiploma in Project Management\nOxford Home Study Center (OHSC), Oxford, UK\n2023\n\n\nM.Sc. in Statistics\nCochin University of Science and Technology, Kerala\n2015–2017\n\n\nB.Sc. in Statistics\nChristian College, Kattakada, University of Kerala\n2012–2015"
+  },
+  {
+    "objectID": "cv.html#professional-certifications",
+    "href": "cv.html#professional-certifications",
+    "title": "Curriculum Vitae",
+    "section": "Professional Certifications",
+    "text": "Professional Certifications\n\nSAS Certified Base Programmer · SAS Institute · 2021\n\n\nIBM Data Science Professional Certification · IBM · 2020\n\n\nData Science Specialization (R) · Johns Hopkins University / Coursera · 2022\n\n\nGoogle Data Analytics Professional Certification (R) · Google · 2023\n\n\nGoogle Project Management Professional Certification · Google · 2024\n\n\nCareer Essentials in Data Analysis · Microsoft & LinkedIn · 2023\n\n\nSDTM001: Introduction to Study Data Tabulation Model · CDISC"
+  },
+  {
+    "objectID": "cv.html#open-source-software-public-domain",
+    "href": "cv.html#open-source-software-public-domain",
+    "title": "Curriculum Vitae",
+    "section": "Open-Source Software (Public Domain)",
+    "text": "Open-Source Software (Public Domain)\nR Packages on CRAN\n\n\n\nPackage\nDescription\nRole\nYear\n\n\n\n\nEasyStat\nAutomated Statistical Analysis, Visualization and Multi-Format Narrative Reporting\nMaintainer\n2026\n\n\nRenyiExtropy\nEntropy and Extropy Measures for Probability Distributions\nMaintainer\n2026\n\n\nBivLaplaceRL\nBivariate Laplace Transforms, Stochastic Orders, and Entropy Measures in Reliability\nMaintainer\n2026\n\n\nViewR\nInteractive Data Viewer, Filter, and Editor\nMaintainer\n2026\n\n\npharmaverseadamjnj\nJ&J Innovative Medicine ADaM Test Data\nContributor\n2025\n\n\nSASdates\nConvert the Dates to ‘SAS’ Formats\nMaintainer\n2022\n\n\n\nPython Packages on PyPI\n\n\n\nPackage\nDescription\nRole\n\n\n\n\nviewdt\nInteractive data viewer for Python\nMaintainer"
+  },
+  {
+    "objectID": "cv.html#peer-reviewed-publications-conference-proceedings",
+    "href": "cv.html#peer-reviewed-publications-conference-proceedings",
+    "title": "Curriculum Vitae",
+    "section": "Peer-Reviewed Publications & Conference Proceedings",
+    "text": "Peer-Reviewed Publications & Conference Proceedings\n\nAutomation of ADaM Dataset & TFL Visualization through an R Package – GenAdam2\nDivakaran, M. & Mohanan, M. K. (2023). PHUSE US Connect 2023 Conference Proceedings. Orlando, USA.\n\n\nAutomation of Standard ADaM Variables Through an R Package – GenAdam\nDivakaran, M. & Mohanan, M. K. (2022). PHUSE EU Connect 2022 Conference Proceedings. Belfast, UK.\n\n\nClinical Design – Visualization and Analysis using the Interactive Application by R Shiny\nDivakaran, M. & Sudhakar, A. (2021). PHUSE EU Connect 2021 Conference Proceedings. London, UK.\n\n\nComparison of some epidemiological models on COVID-19 spread in Kerala\nAmbika, A. P., Divakaran, M., Menon, N. & Das, U. (2020). DOI: 10.13140/RG.2.2.26715.39201"
+  },
+  {
+    "objectID": "cv.html#conference-presentations-attendance",
+    "href": "cv.html#conference-presentations-attendance",
+    "title": "Curriculum Vitae",
+    "section": "Conference Presentations & Attendance",
+    "text": "Conference Presentations & Attendance\n\n\n\n\n\n\n\n\nConference\nLocation\nYear\n\n\n\n\nPHUSE US Connect 2023\nOrlando, USA\nMarch 5–8, 2023\n\n\nPHUSE EU Connect 2022\nBelfast, United Kingdom\nNovember 13–16, 2022\n\n\nPHUSE EU Connect 2021\nLondon, United Kingdom\nNovember 13–16, 2021\n\n\nPSI Conference 2021\nVirtual\nOctober 21–23, 2021\n\n\nISPS Conference 2016\nAligarh, Uttar Pradesh\nDecember 17–19, 2016"
+  },
+  {
+    "objectID": "cv.html#professional-affiliations-volunteering",
+    "href": "cv.html#professional-affiliations-volunteering",
+    "title": "Curriculum Vitae",
+    "section": "Professional Affiliations & Volunteering",
+    "text": "Professional Affiliations & Volunteering\nVolunteer – CDISC Open-Source Alliance (COSA) Volunteer – Kerala Police Cyberdome Life Member – Indian Society for Probability and Statistics (ISPS)"
+  },
+  {
+    "objectID": "cv.html#honours-awards",
+    "href": "cv.html#honours-awards",
+    "title": "Curriculum Vitae",
+    "section": "Honours & Awards",
+    "text": "Honours & Awards\n\nQuarterly Employee Award · Genpro Research\nNCC B Certificate · NCC India"
+  },
+  {
+    "objectID": "cv.html#connect-with-me",
+    "href": "cv.html#connect-with-me",
+    "title": "Curriculum Vitae",
+    "section": "Connect with Me",
+    "text": "Connect with Me"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -32,7 +130,7 @@
     "href": "about.html#professional-experience",
     "title": "About",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\nSenior Statistical Programmer\nIQVIA RDS Pvt. Ltd. · India\nJuly 2024 – Present\n\nLead R package development and validation for clinical trial reporting workflows\nMaintain and expand an R package catalogue for reproducibility and compliance\nDrive TLG (Tables, Listings, Graphs) generation using validated R packages in line with CDISC and regulatory standards\n\n\n\nAssociate Lead – Clinical Data Analytics\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala\nApril 2023 – July 2024\n\nLed development of R Shiny dashboards for clinical data visualization and TFL reporting automation\nArchitected and maintained R packages for end-to-end SDTM, ADaM, and TFL creation\nMentored and trained analysts in open-source clinical reporting tools\n\n\n\nPart-Time Lecturer in Biostatistics\nGulf Medical University · UAE (Remote)\nJanuary 2022 – August 2023\n\nTaught Biostatistics to medical students covering descriptive statistics, inferential methods, clinical trial design, and data interpretation\n\n\n\nData Analyst Level II\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala\nApril 2022 – March 2023\n\nDeveloped R Shiny dashboards for clinical data visualization and interactive trial reporting\nBuilt R packages to automate ADaM dataset generation and SAS date conversion within R environments\n\n\n\nStatistical Programmer Level I\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala\nSeptember 2019 – March 2022\n\nConverted clinical study datasets to CDISC/SDTM standards across multiple therapeutic areas\nDeveloped SAS macro programs for ADaM dataset generation and TFL creation\nGenerated XML outputs for FDA regulatory submissions\n\n\n\nData Scientist\nMenerva Software · Cochin, Kerala\nFebruary 2019 – November 2019\n\nDeveloped Medical Entity Recognition (Bio-NER) models for insurance data processing\nResearched cryptocurrency value forecasting for Ethereum tokens using time-series models\n\n\n\nData Scientist / ML Developer\nSuyati Technologies · Cochin, Kerala\nJune 2018 – January 2019\n\nDeveloped machine learning models for Pricing Intelligence, Sales Forecasting, and CLTV prediction\nDelivered a webinar on ‘Buy Till You Die model for CLTV’ to industry professionals\n\n\n\nBusiness Analyst\nBRIDGEi2i Analytics Solutions Pvt. Ltd. · Bangalore\nMay 2017 – May 2018\n\nPerformed Tweet Sentiment Analysis using NLP techniques\nContributed to Chatbot development using NLU frameworks\nBuilt regression, classification, and dynamic pricing models"
+    "text": "Professional Experience\n\nSenior Technical Lead – Statistical Programming\nEphicacy Lifescience Analytics · Full-time · Trivandrum, Kerala, India (Remote)\nMarch 2026 – Present\n\nLead statistical programming deliverables for clinical trials, ensuring CDISC (SDTM/ADaM) and regulatory compliance\nDrive R-based automation of clinical reporting workflows and mentor programming teams\n\n\n\nSenior Statistical Programmer\nIQVIA RDS Pvt. Ltd. · India\nJuly 2024 – March 2026\n\nLead R package development and validation for clinical trial reporting workflows\nMaintain and expand an R package catalogue for reproducibility and compliance\nDrive TLG (Tables, Listings, Graphs) generation using validated R packages in line with CDISC and regulatory standards\n\n\n\nAssociate Lead – Clinical Data Analytics\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala\nApril 2023 – July 2024\n\nLed development of R Shiny dashboards for clinical data visualization and TFL reporting automation\nArchitected and maintained R packages for end-to-end SDTM, ADaM, and TFL creation\nMentored and trained analysts in open-source clinical reporting tools\n\n\n\nPart-Time Lecturer in Biostatistics\nGulf Medical University · UAE (Remote)\nJanuary 2022 – August 2023\n\nTaught Biostatistics to medical students covering descriptive statistics, inferential methods, clinical trial design, and data interpretation\n\n\n\nData Analyst Level II\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala\nApril 2022 – March 2023\n\nDeveloped R Shiny dashboards for clinical data visualization and interactive trial reporting\nBuilt R packages to automate ADaM dataset generation and SAS date conversion within R environments\n\n\n\nStatistical Programmer Level I\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala\nSeptember 2019 – March 2022\n\nConverted clinical study datasets to CDISC/SDTM standards across multiple therapeutic areas\nDeveloped SAS macro programs for ADaM dataset generation and TFL creation\nGenerated XML outputs for FDA regulatory submissions\n\n\n\nData Scientist\nMenerva Software · Cochin, Kerala\nFebruary 2019 – November 2019\n\nDeveloped Medical Entity Recognition (Bio-NER) models for insurance data processing\nResearched cryptocurrency value forecasting for Ethereum tokens using time-series models\n\n\n\nData Scientist / ML Developer\nSuyati Technologies · Cochin, Kerala\nJune 2018 – January 2019\n\nDeveloped machine learning models for Pricing Intelligence, Sales Forecasting, and CLTV prediction\nDelivered a webinar on ‘Buy Till You Die model for CLTV’ to industry professionals\n\n\n\nBusiness Analyst\nBRIDGEi2i Analytics Solutions Pvt. Ltd. · Bangalore\nMay 2017 – May 2018\n\nPerformed Tweet Sentiment Analysis using NLP techniques\nContributed to Chatbot development using NLU frameworks\nBuilt regression, classification, and dynamic pricing models"
   },
   {
     "objectID": "about.html#technical-skills",
@@ -81,7 +179,7 @@
     "href": "index.html",
     "title": "Mahesh Divakaran",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \nwho am i\nSenior Statistical Programmer · Clinical Data Scientist · PhD Candidate\nI have close to a decade of experience specializing in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL programming. Currently a Senior Statistical Programmer at IQVIA and PhD candidate in Statistics at Amity University, based in Trivandrum, Kerala, India.\nI build R packages, automate clinical pipelines, present at international PHUSE conferences, and teach Biostatistics.\n\n\n\n\n\n9+ Years Experience\n\n\n4 PHUSE Papers\n\n\n7 Certifications\n\n\n20+ Conferences\n\n\n\n\n\n\nstatistical programming\nR (Advanced) Python R Package Dev R Shiny SAS Base SAS Macros\nclinical standards\nCDISC SDTM ADaM TLG / TFL FDA Regulatory Define.xml\npharmaverse\nadmiral sdtm.oak xportr rtables\nvisualization & tooling\nTableau Power BI ggplot2 Plotly Git / GitHub\n\n\n\n\n\nSenior Statistical Programmer · IQVIA RDS Pvt. Ltd.\nJuly 2024 – Present\nLead R package development and validation for clinical trial reporting. Drive TLG generation aligned with CDISC and regulatory standards.\n\n\nAssociate Lead, Clinical Data Analytics · Genpro Research\nApril 2023 – July 2024\nLed R Shiny dashboard development and R package architecture for end-to-end SDTM/ADaM/TFL automation. Mentored junior analysts.\n\n\nPart-Time Lecturer in Biostatistics · Gulf Medical University, UAE\nJanuary 2022 – August 2023\nTaught descriptive statistics, inferential methods, and clinical trial design to medical students.\n\n→ View full CV for complete work history"
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \nwho am i\nSenior Technical Lead – Statistical Programming · Clinical Data Scientist · PhD Candidate\nI have close to a decade of experience specializing in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL programming. Currently Senior Technical Lead – Statistical Programming at Ephicacy and PhD candidate in Statistics at Amity University, based in Trivandrum, Kerala, India.\nI build R packages, automate clinical pipelines, present at international PHUSE conferences, and teach Biostatistics.\n\n\n\n\n\n9+ Years Experience\n\n\n4 PHUSE Papers\n\n\n7 Certifications\n\n\n20+ Conferences\n\n\n\n\n\n\nstatistical programming\nR (Advanced) Python R Package Dev R Shiny SAS Base SAS Macros\nclinical standards\nCDISC SDTM ADaM TLG / TFL FDA Regulatory Define.xml\npharmaverse\nadmiral sdtm.oak xportr rtables\nvisualization & tooling\nTableau Power BI ggplot2 Plotly Git / GitHub\n\n\n\n\n\nSenior Technical Lead – Statistical Programming · Ephicacy Lifescience Analytics\nMarch 2026 – Present · Trivandrum, Kerala, India (Remote)\nLead statistical programming activities for clinical trial reporting, driving CDISC-compliant deliverables and R-based automation.\n\n\nSenior Statistical Programmer · IQVIA RDS Pvt. Ltd.\nJuly 2024 – March 2026\nLead R package development and validation for clinical trial reporting. Drive TLG generation aligned with CDISC and regulatory standards.\n\n\nAssociate Lead, Clinical Data Analytics · Genpro Research\nApril 2023 – July 2024\nLed R Shiny dashboard development and R package architecture for end-to-end SDTM/ADaM/TFL automation. Mentored junior analysts.\n\n\nPart-Time Lecturer in Biostatistics · Gulf Medical University, UAE\nJanuary 2022 – August 2023\nTaught descriptive statistics, inferential methods, and clinical trial design to medical students.\n\n→ View full CV for complete work history\n\n\n\n\nr packages on cran\n\nEasyStat — Automated Statistical Analysis, Visualization and Multi-Format Narrative Reporting · Maintainer\nRenyiExtropy — Entropy and Extropy Measures for Probability Distributions · Maintainer\nBivLaplaceRL — Bivariate Laplace Transforms, Stochastic Orders, and Entropy Measures in Reliability · Maintainer\nViewR — Interactive Data Viewer, Filter, and Editor · Maintainer\nSASdates — Convert the Dates to ‘SAS’ Formats · Maintainer\npharmaverseadamjnj — J&J Innovative Medicine ADaM Test Data · Contributor\n\npython packages on pypi\n\nviewdt — Interactive data viewer for Python"
   },
   {
     "objectID": "index.html#at-a-glance",
@@ -102,97 +200,13 @@
     "href": "index.html#recent-experience",
     "title": "Mahesh Divakaran",
     "section": "",
-    "text": "Senior Statistical Programmer · IQVIA RDS Pvt. Ltd.\nJuly 2024 – Present\nLead R package development and validation for clinical trial reporting. Drive TLG generation aligned with CDISC and regulatory standards.\n\n\nAssociate Lead, Clinical Data Analytics · Genpro Research\nApril 2023 – July 2024\nLed R Shiny dashboard development and R package architecture for end-to-end SDTM/ADaM/TFL automation. Mentored junior analysts.\n\n\nPart-Time Lecturer in Biostatistics · Gulf Medical University, UAE\nJanuary 2022 – August 2023\nTaught descriptive statistics, inferential methods, and clinical trial design to medical students.\n\n→ View full CV for complete work history"
+    "text": "Senior Technical Lead – Statistical Programming · Ephicacy Lifescience Analytics\nMarch 2026 – Present · Trivandrum, Kerala, India (Remote)\nLead statistical programming activities for clinical trial reporting, driving CDISC-compliant deliverables and R-based automation.\n\n\nSenior Statistical Programmer · IQVIA RDS Pvt. Ltd.\nJuly 2024 – March 2026\nLead R package development and validation for clinical trial reporting. Drive TLG generation aligned with CDISC and regulatory standards.\n\n\nAssociate Lead, Clinical Data Analytics · Genpro Research\nApril 2023 – July 2024\nLed R Shiny dashboard development and R package architecture for end-to-end SDTM/ADaM/TFL automation. Mentored junior analysts.\n\n\nPart-Time Lecturer in Biostatistics · Gulf Medical University, UAE\nJanuary 2022 – August 2023\nTaught descriptive statistics, inferential methods, and clinical trial design to medical students.\n\n→ View full CV for complete work history"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "index.html#open-source-packages",
+    "href": "index.html#open-source-packages",
+    "title": "Mahesh Divakaran",
     "section": "",
-    "text": "curriculum vitae"
-  },
-  {
-    "objectID": "cv.html#professional-summary",
-    "href": "cv.html#professional-summary",
-    "title": "Curriculum Vitae",
-    "section": "Professional Summary",
-    "text": "Professional Summary\nSenior Statistical Programmer and Clinical Data Scientist with close to a decade (9+ years) of experience in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL generation. Currently a PhD candidate in Statistics at Amity University. Expert in R, SAS, and Python with a strong track record of building R packages, automating clinical reporting pipelines, and developing R Shiny dashboards for data visualization. International conference presenter (PHUSE US & EU), SAS Certified Base Programmer, and part-time Biostatistics lecturer. Experienced in regulatory submissions (FDA XML outputs) and cross-functional team leadership."
-  },
-  {
-    "objectID": "cv.html#core-competencies",
-    "href": "cv.html#core-competencies",
-    "title": "Curriculum Vitae",
-    "section": "Core Competencies",
-    "text": "Core Competencies\nR Programming (Advanced) SAS Base / Macros / STAT Python SDTM & ADaM Programming TLG / TFL Generation CDISC Standards FDA Regulatory Submissions R Package Development R Shiny Dashboard Development Tableau & Power BI Statistical Analysis Plan (SAP) Biostatistics Machine Learning NLP / NER Team Leadership & Mentoring"
-  },
-  {
-    "objectID": "cv.html#professional-experience",
-    "href": "cv.html#professional-experience",
-    "title": "Curriculum Vitae",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nSenior Statistical Programmer\nIQVIA RDS Pvt. Ltd. · India\nJuly 2024 – Present\n\nLead R package development and validation activities for clinical trial reporting workflows\nMaintain and expand an R package catalogue documenting packages used across clinical studies to ensure reproducibility and compliance\nDrive TLG (Tables, Listings, Graphs) generation using validated R packages in line with CDISC and regulatory standards\n\n\n\nAssociate Lead – Clinical Data Analytics\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala, India\nApril 2023 – July 2024\n\nLed development of R Shiny dashboards for clinical data visualization and TFL reporting automation, reducing manual effort significantly\nArchitected and maintained R packages for end-to-end automation of SDTM, ADaM, and TFL creation, improving team throughput and consistency\nMentored and trained a team of analysts in open-source clinical reporting tools, building in-house R capabilities\nCreated R-based standard scripts to generate ADaM datasets and produce listings, tables, and graphs\nDeveloped SAS programs for clinical summaries and listings in compliance with CDISC standards\n\n\n\nData Analyst Level II\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala, India\nApril 2022 – March 2023\n\nDeveloped R Shiny dashboards for clinical data visualization and interactive trial reporting\nBuilt R packages to automate ADaM dataset generation and SAS date conversion within R environments\nProduced SAS programs for clinical data summaries and listings\nCreated R Markdown-based documentation and catalogues for R scripts\n\n\n\nStatistical Programmer Level I\nGenpro Research Pvt. Ltd. · Trivandrum, Kerala, India\nSeptember 2019 – March 2022\n\nConverted clinical study datasets to CDISC/SDTM standards across multiple therapeutic areas including Phlebotomy and Gastroenterology\nDeveloped SAS macro programs for ADaM dataset generation and TFL creation\nProgrammed multiple SDTM domains and authored patient narratives for clinical study reports\nGenerated XML outputs for FDA regulatory submissions\nConducted COVID-19 and medical prescription data analyses using R, applying Lasso and Ridge Regression statistical models\n\n\n\nData Scientist\nMenerva Software · Cochin, Kerala, India\nFebruary 2019 – November 2019\n\nDeveloped Medical Entity Recognition (Bio-NER) models for insurance data processing\nPerformed customer and promotion analysis for a large coffee chain using advanced statistical techniques\nResearched cryptocurrency value forecasting for Ethereum tokens using time-series models\n\n\n\nData Scientist / ML Developer\nSuyati Technologies · Cochin, Kerala, India\nJune 2018 – January 2019\n\nDeveloped machine learning models for Pricing Intelligence, Sales Forecasting, and Customer Lifetime Value (CLTV) prediction\nDelivered a webinar on ‘Buy Till You Die model for CLTV’ to industry professionals\n\n\n\nBusiness Analyst\nBRIDGEi2i Analytics Solutions Pvt. Ltd. · Bangalore, India\nMay 2017 – May 2018\n\nPerformed Tweet Sentiment Analysis using NLP techniques\nContributed to Chatbot development using NLU frameworks\nBuilt regression and classification models and developed dynamic pricing models"
-  },
-  {
-    "objectID": "cv.html#teaching-experience",
-    "href": "cv.html#teaching-experience",
-    "title": "Curriculum Vitae",
-    "section": "Teaching Experience",
-    "text": "Teaching Experience\n\nPart-Time Lecturer in Biostatistics\nGulf Medical University · UAE (Remote)\nJanuary 2022 – August 2023\n\nTaught Biostatistics to medical students, covering descriptive statistics, inferential methods, clinical trial design, and data interpretation"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "Technical Skills",
-    "text": "Technical Skills\nStatistical Programming R (Advanced) · Python (Advanced) · SAS Base SAS · SAS Macros · SAS/STAT (Certified)\nClinical Standards SDTM · ADaM · CDISC Standards · TLG/TFL Programming · CSR & SAP Automation · Define.xml · FDA XML Submissions\nPharmaverse Tools admiral · sdtm.oak · xportr · metacore · tlg · rtables\nR Ecosystem R Shiny · R Package Development · R Markdown · ggplot2 · tidyverse (dplyr, tidyr) · Plotly · survival · caret\nPython Ecosystem pandas · NumPy · Matplotlib · scikit-learn · TensorFlow / PyTorch\nMachine Learning & AI Supervised & Unsupervised Learning · CNNs · RNNs · NER · Text Classification · Generative AI · CLTV Models\nData Visualization R Shiny · ggplot2 · Plotly · Matplotlib · Tableau · Power BI\nStatistical Methods Survival Analysis · Mixed Models · ANOVA · Logistic Regression · Epidemiological Modelling\nVersion Control & Productivity Git · GitHub · Microsoft Office · LaTeX"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nPhD in Statistics (In Progress)\nAmity University, Lucknow, Uttar Pradesh\n2024–Present\n\n\nDiploma in Project Management\nOxford Home Study Center (OHSC), Oxford, UK\n2023\n\n\nM.Sc. in Statistics\nCochin University of Science and Technology, Kerala\n2015–2017\n\n\nB.Sc. in Statistics\nChristian College, Kattakada, University of Kerala\n2012–2015"
-  },
-  {
-    "objectID": "cv.html#professional-certifications",
-    "href": "cv.html#professional-certifications",
-    "title": "Curriculum Vitae",
-    "section": "Professional Certifications",
-    "text": "Professional Certifications\n\nSAS Certified Base Programmer · SAS Institute · 2021\n\n\nIBM Data Science Professional Certification · IBM · 2020\n\n\nData Science Specialization (R) · Johns Hopkins University / Coursera · 2022\n\n\nGoogle Data Analytics Professional Certification (R) · Google · 2023\n\n\nGoogle Project Management Professional Certification · Google · 2024\n\n\nCareer Essentials in Data Analysis · Microsoft & LinkedIn · 2023\n\n\nSDTM001: Introduction to Study Data Tabulation Model · CDISC"
-  },
-  {
-    "objectID": "cv.html#peer-reviewed-publications-conference-proceedings",
-    "href": "cv.html#peer-reviewed-publications-conference-proceedings",
-    "title": "Curriculum Vitae",
-    "section": "Peer-Reviewed Publications & Conference Proceedings",
-    "text": "Peer-Reviewed Publications & Conference Proceedings\n\nAutomation of ADaM Dataset & TFL Visualization through an R Package – GenAdam2\nDivakaran, M. & Mohanan, M. K. (2023). PHUSE US Connect 2023 Conference Proceedings. Orlando, USA.\n\n\nAutomation of Standard ADaM Variables Through an R Package – GenAdam\nDivakaran, M. & Mohanan, M. K. (2022). PHUSE EU Connect 2022 Conference Proceedings. Belfast, UK.\n\n\nClinical Design – Visualization and Analysis using the Interactive Application by R Shiny\nDivakaran, M. & Sudhakar, A. (2021). PHUSE EU Connect 2021 Conference Proceedings. London, UK.\n\n\nComparison of some epidemiological models on COVID-19 spread in Kerala\nAmbika, A. P., Divakaran, M., Menon, N. & Das, U. (2020). DOI: 10.13140/RG.2.2.26715.39201"
-  },
-  {
-    "objectID": "cv.html#conference-presentations-attendance",
-    "href": "cv.html#conference-presentations-attendance",
-    "title": "Curriculum Vitae",
-    "section": "Conference Presentations & Attendance",
-    "text": "Conference Presentations & Attendance\n\n\n\n\n\n\n\n\nConference\nLocation\nYear\n\n\n\n\nPHUSE US Connect 2023\nOrlando, USA\nMarch 5–8, 2023\n\n\nPHUSE EU Connect 2022\nBelfast, United Kingdom\nNovember 13–16, 2022\n\n\nPHUSE EU Connect 2021\nLondon, United Kingdom\nNovember 13–16, 2021\n\n\nPSI Conference 2021\nVirtual\nOctober 21–23, 2021\n\n\nISPS Conference 2016\nAligarh, Uttar Pradesh\nDecember 17–19, 2016"
-  },
-  {
-    "objectID": "cv.html#professional-affiliations-volunteering",
-    "href": "cv.html#professional-affiliations-volunteering",
-    "title": "Curriculum Vitae",
-    "section": "Professional Affiliations & Volunteering",
-    "text": "Professional Affiliations & Volunteering\nVolunteer – CDISC Open-Source Alliance (COSA) Volunteer – Kerala Police Cyberdome Life Member – Indian Society for Probability and Statistics (ISPS)"
-  },
-  {
-    "objectID": "cv.html#honours-awards",
-    "href": "cv.html#honours-awards",
-    "title": "Curriculum Vitae",
-    "section": "Honours & Awards",
-    "text": "Honours & Awards\n\nQuarterly Employee Award · Genpro Research\nNCC B Certificate · NCC India"
-  },
-  {
-    "objectID": "cv.html#connect-with-me",
-    "href": "cv.html#connect-with-me",
-    "title": "Curriculum Vitae",
-    "section": "Connect with Me",
-    "text": "Connect with Me"
+    "text": "r packages on cran\n\nEasyStat — Automated Statistical Analysis, Visualization and Multi-Format Narrative Reporting · Maintainer\nRenyiExtropy — Entropy and Extropy Measures for Probability Distributions · Maintainer\nBivLaplaceRL — Bivariate Laplace Transforms, Stochastic Orders, and Entropy Measures in Reliability · Maintainer\nViewR — Interactive Data Viewer, Filter, and Editor · Maintainer\nSASdates — Convert the Dates to ‘SAS’ Formats · Maintainer\npharmaverseadamjnj — J&J Innovative Medicine ADaM Test Data · Contributor\n\npython packages on pypi\n\nviewdt — Interactive data viewer for Python"
   }
 ]

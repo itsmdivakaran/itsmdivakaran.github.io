@@ -28,9 +28,9 @@ number-sections: false
 
 <span class="section-label">who am i</span>
 
-**Senior Statistical Programmer · Clinical Data Scientist · PhD Candidate**
+**Senior Technical Lead – Statistical Programming · Clinical Data Scientist · PhD Candidate**
 
-I have **close to a decade** of experience specializing in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL programming. Currently a **Senior Statistical Programmer at IQVIA** and PhD candidate in Statistics at Amity University, based in **Trivandrum, Kerala, India**.
+I have **close to a decade** of experience specializing in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL programming. Currently **Senior Technical Lead – Statistical Programming at Ephicacy** and PhD candidate in Statistics at Amity University, based in **Trivandrum, Kerala, India**.
 
 I build R packages, automate clinical pipelines, present at international PHUSE conferences, and teach Biostatistics.
 
@@ -100,9 +100,17 @@ I build R packages, automate clinical pipelines, present at international PHUSE 
 ## Recent Experience
 
 ::: {.timeline-entry}
+[**Senior Technical Lead – Statistical Programming · [Ephicacy Lifescience Analytics](https://www.linkedin.com/company/ephicacy-lifescience-analytics/)**]{.timeline-role}
+
+[March 2026 – Present · Trivandrum, Kerala, India (Remote)]{.timeline-date}
+
+Lead statistical programming activities for clinical trial reporting, driving CDISC-compliant deliverables and R-based automation.
+:::
+
+::: {.timeline-entry}
 [**Senior Statistical Programmer · IQVIA RDS Pvt. Ltd.**]{.timeline-role}
 
-[July 2024 – Present]{.timeline-date}
+[July 2024 – March 2026]{.timeline-date}
 
 Lead R package development and validation for clinical trial reporting. Drive TLG generation aligned with CDISC and regulatory standards.
 :::
@@ -124,6 +132,23 @@ Taught descriptive statistics, inferential methods, and clinical trial design to
 :::
 
 [→ View full CV for complete work history](/cv.qmd){target="_blank"}
+
+---
+
+## Open-Source Packages
+
+<span class="section-label">r packages on cran</span>
+
+- **[EasyStat](https://cran.r-project.org/package=EasyStat)** — Automated Statistical Analysis, Visualization and Multi-Format Narrative Reporting · Maintainer
+- **[RenyiExtropy](https://cran.r-project.org/package=RenyiExtropy)** — Entropy and Extropy Measures for Probability Distributions · Maintainer
+- **[BivLaplaceRL](https://cran.r-project.org/package=BivLaplaceRL)** — Bivariate Laplace Transforms, Stochastic Orders, and Entropy Measures in Reliability · Maintainer
+- **[ViewR](https://cran.r-project.org/package=ViewR)** — Interactive Data Viewer, Filter, and Editor · Maintainer
+- **[SASdates](https://cran.r-project.org/package=SASdates)** — Convert the Dates to 'SAS' Formats · Maintainer
+- **[pharmaverseadamjnj](https://cran.r-project.org/package=pharmaverseadamjnj)** — J&J Innovative Medicine ADaM Test Data · Contributor
+
+<span class="section-label">python packages on pypi</span>
+
+- **[viewdt](https://pypi.org/project/viewdt/)** — Interactive data viewer for Python
 
 ---
 

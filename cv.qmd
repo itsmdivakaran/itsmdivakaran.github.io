@@ -9,7 +9,7 @@ toc-location: right
 
 # Mahesh Divakaran
 
-**Senior Statistical Programmer · Clinical Data Scientist · PhD Candidate**
+**Senior Technical Lead – Statistical Programming · Clinical Data Scientist · PhD Candidate**
 
 📍 Trivandrum, Kerala, India · ✉️ [imaheshdivakaran@gmail.com](mailto:imaheshdivakaran@gmail.com) · [LinkedIn](https://www.linkedin.com/in/imaheshdivakaran/) · [GitHub](https://github.com/itsmdivakaran)
 
@@ -17,7 +17,7 @@ toc-location: right
 
 ## Professional Summary
 
-Senior Statistical Programmer and Clinical Data Scientist with **close to a decade (9+ years)** of experience in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL generation. Currently a PhD candidate in Statistics at Amity University. Expert in **R, SAS, and Python** with a strong track record of building R packages, automating clinical reporting pipelines, and developing R Shiny dashboards for data visualization. International conference presenter (PHUSE US & EU), SAS Certified Base Programmer, and part-time Biostatistics lecturer. Experienced in regulatory submissions (FDA XML outputs) and cross-functional team leadership.
+Senior Technical Lead (Statistical Programming) and Clinical Data Scientist with **close to a decade (9+ years)** of experience in clinical data analysis, CDISC standards (SDTM, ADaM), and TLG/TFL generation. Currently a PhD candidate in Statistics at Amity University. Expert in **R, SAS, and Python** with a strong track record of building R packages, automating clinical reporting pipelines, and developing R Shiny dashboards for data visualization. International conference presenter (PHUSE US & EU), SAS Certified Base Programmer, and part-time Biostatistics lecturer. Experienced in regulatory submissions (FDA XML outputs) and cross-functional team leadership.
 
 ---
 
@@ -44,11 +44,22 @@ Senior Statistical Programmer and Clinical Data Scientist with **close to a deca
 ## Professional Experience
 
 ::: {.cv-role}
+[**Senior Technical Lead – Statistical Programming**]{.role-title}
+
+[[Ephicacy Lifescience Analytics](https://www.linkedin.com/company/ephicacy-lifescience-analytics/) · Full-time · Trivandrum, Kerala, India (Remote)]{.role-company}
+
+[March 2026 – Present]{.role-date}
+
+- Lead statistical programming deliverables for clinical trials, ensuring CDISC (SDTM/ADaM) and regulatory compliance
+- Drive R-based automation of clinical reporting workflows and mentor programming teams
+:::
+
+::: {.cv-role}
 [**Senior Statistical Programmer**]{.role-title}
 
 [IQVIA RDS Pvt. Ltd. · India]{.role-company}
 
-[July 2024 – Present]{.role-date}
+[July 2024 – March 2026]{.role-date}
 
 - Lead R package development and validation activities for clinical trial reporting workflows
 - Maintain and expand an R package catalogue documenting packages used across clinical studies to ensure reproducibility and compliance
@@ -212,6 +223,27 @@ Git · GitHub · Microsoft Office · LaTeX
 ::: {.cert-item}
 **SDTM001: Introduction to Study Data Tabulation Model** · CDISC
 :::
+
+---
+
+## Open-Source Software (Public Domain)
+
+**R Packages on CRAN**
+
+| Package | Description | Role | Year |
+|---------|-------------|------|------|
+| [EasyStat](https://cran.r-project.org/package=EasyStat) | Automated Statistical Analysis, Visualization and Multi-Format Narrative Reporting | Maintainer | 2026 |
+| [RenyiExtropy](https://cran.r-project.org/package=RenyiExtropy) | Entropy and Extropy Measures for Probability Distributions | Maintainer | 2026 |
+| [BivLaplaceRL](https://cran.r-project.org/package=BivLaplaceRL) | Bivariate Laplace Transforms, Stochastic Orders, and Entropy Measures in Reliability | Maintainer | 2026 |
+| [ViewR](https://cran.r-project.org/package=ViewR) | Interactive Data Viewer, Filter, and Editor | Maintainer | 2026 |
+| [pharmaverseadamjnj](https://cran.r-project.org/package=pharmaverseadamjnj) | J&J Innovative Medicine ADaM Test Data | Contributor | 2025 |
+| [SASdates](https://cran.r-project.org/package=SASdates) | Convert the Dates to 'SAS' Formats | Maintainer | 2022 |
+
+**Python Packages on PyPI**
+
+| Package | Description | Role |
+|---------|-------------|------|
+| [viewdt](https://pypi.org/project/viewdt/) | Interactive data viewer for Python | Maintainer |
 
 ---
 

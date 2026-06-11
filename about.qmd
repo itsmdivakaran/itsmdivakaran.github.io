@@ -7,7 +7,7 @@ toc: false
 
 # Mahesh Divakaran
 
-Hi — I'm a **Senior Statistical Programmer and Clinical Data Scientist** with **close to a decade** of experience in clinical data analysis, CDISC standards, and statistical programming. I currently work at **IQVIA** and am pursuing my **PhD in Statistics** at Amity University.
+Hi — I'm a **Senior Technical Lead (Statistical Programming) and Clinical Data Scientist** with **close to a decade** of experience in clinical data analysis, CDISC standards, and statistical programming. I currently work at **Ephicacy Lifescience Analytics** and am pursuing my **PhD in Statistics** at Amity University.
 
 My work sits at the intersection of statistics, software engineering, and clinical research — building tools that help pharmaceutical teams analyze, visualize, and report clinical trial data with greater speed and accuracy.
 
@@ -16,11 +16,22 @@ My work sits at the intersection of statistics, software engineering, and clinic
 ## Professional Experience
 
 ::: {.cv-role}
+[**Senior Technical Lead – Statistical Programming**]{.role-title}
+
+[[Ephicacy Lifescience Analytics](https://www.linkedin.com/company/ephicacy-lifescience-analytics/) · Full-time · Trivandrum, Kerala, India (Remote)]{.role-company}
+
+[March 2026 – Present]{.role-date}
+
+- Lead statistical programming deliverables for clinical trials, ensuring CDISC (SDTM/ADaM) and regulatory compliance
+- Drive R-based automation of clinical reporting workflows and mentor programming teams
+:::
+
+::: {.cv-role}
 [**Senior Statistical Programmer**]{.role-title}
 
 [IQVIA RDS Pvt. Ltd. · India]{.role-company}
 
-[July 2024 – Present]{.role-date}
+[July 2024 – March 2026]{.role-date}
 
 - Lead R package development and validation for clinical trial reporting workflows
 - Maintain and expand an R package catalogue for reproducibility and compliance
