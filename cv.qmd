@@ -98,7 +98,7 @@ Senior Technical Lead (Statistical Programming) and Clinical Data Scientist with
 
 [Genpro Research Pvt. Ltd. · Trivandrum, Kerala, India]{.role-company}
 
-[September 2019 – March 2022]{.role-date}
+[November 2019 – March 2022]{.role-date}
 
 - Converted clinical study datasets to CDISC/SDTM standards across multiple therapeutic areas including Phlebotomy and Gastroenterology
 - Developed SAS macro programs for ADaM dataset generation and TFL creation
